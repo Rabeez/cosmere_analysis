@@ -1,0 +1,19 @@
+[workspace]
+authors = ["Rabeez Riaz <ruoter123@gmail.com>"]
+channels = ["conda-forge"]
+name = "cosmere_analysis"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+nvim = "nvim"
+
+[dependencies]
+python = "3.12.*"
+pip = ">=25.1.1,<26"
+polars = ">=1.29.0,<2"
+matplotlib = ">=3.10.3,<4"
+seaborn = ">=0.13.2,<0.14"
+numpy = ">=2.2.5,<3"
+scipy = ">=1.15.2,<2"
+python-dotenv = ">=1.1.0,<2"
