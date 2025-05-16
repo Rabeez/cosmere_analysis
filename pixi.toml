@@ -7,6 +7,7 @@ version = "0.1.0"
 
 [tasks]
 nvim = "nvim"
+get_characters = "python src/get_characters.py"
 
 [dependencies]
 python = "3.12.*"
