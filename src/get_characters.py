@@ -62,6 +62,7 @@ def char_info(link_suffix: str) -> list[str]:
             aliases = td.text(strip=True) if td else ""
             break
     aliases = [a.strip() for a in aliases.split(",")]
+    aliases = aliases if aliases else []
     return aliases
 
 
