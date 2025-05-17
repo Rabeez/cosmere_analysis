@@ -122,7 +122,8 @@ def stream_lines_w_metadata(
 def main() -> None:
     nlp = spacy.load(
         "en_core_web_sm",
-        disable=["parser", "ner", "lemmatizer", "textcat"],
+        enable=["tokenizer"],
+        # disable=["parser", "ner", "lemmatizer", "textcat"],
     )
     # nlp.max_length = 500_000
 
