@@ -46,7 +46,7 @@ def main() -> None:
         output_file = OUTPUT_DIR / f"{char_occurence_file.stem}.parquet"
         output_file.unlink(missing_ok=True)
         cooccurence_df.write_parquet(output_file)
-        break
+        # break
 
 
 if __name__ == "__main__":

@@ -147,7 +147,7 @@ def main() -> None:
         output_file.unlink(missing_ok=True)
         chars_df = pl.DataFrame(records)
         chars_df.write_parquet(output_file)
-        break
+        # break
 
 
 if __name__ == "__main__":
