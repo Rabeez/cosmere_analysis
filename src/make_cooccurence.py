@@ -45,7 +45,7 @@ def main() -> None:
         )
         output_file = OUTPUT_DIR / "temp.json"
         output_file.unlink(missing_ok=True)
-        cooccurence_df.write_parquet(output_file)
+        cooccurence_df.write_json(output_file)
         break
 
 
