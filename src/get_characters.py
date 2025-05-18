@@ -54,6 +54,7 @@ def char_info(link_suffix: str) -> list[str]:
         tqdm.write("Container table element not found")
         return []
 
+    # TODO: Extract full character table as 'metadata'
     aliases = ""
     for tr in container_elem.css("tr"):
         th = tr.css_first("th")
