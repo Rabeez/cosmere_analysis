@@ -9,6 +9,8 @@ const svg = d3
   .attr("preserveAspectRatio", "xMidYMid meet");
 
 d3.json("network.json").then((data) => {
+  console.log("JSON Data:", data); // Log to verify data structure
+
   const linkScale = d3
     .scaleLinear()
     .domain(d3.extent(data.links, (d) => d.weight))
@@ -39,27 +41,35 @@ d3.json("network.json").then((data) => {
       simulation.stop();
     });
 
-  const link = svg
-    .append("g")
-    .attr("stroke", "#999")
-    .attr("stroke-opacity", (d) => opacityScale(d.weight))
+  // Create link group
+  const linkGroup = svg.append("g").attr("stroke", "#999");
+
+  // Create links with data binding
+  const link = linkGroup
     .selectAll("line")
     .data(data.links)
     .join("line")
-    .attr("stroke-width", (d) => linkScale(d.weight));
+    .attr("stroke-width", (d) => linkScale(d.weight))
+    .attr("stroke-opacity", (d) => opacityScale(d.weight));
 
-  const node = svg
+  // Create node group
+  const nodeGroup = svg
     .append("g")
     .attr("stroke", "#fff")
-    .attr("stroke-width", 1.5)
+    .attr("stroke-width", 1.5);
+
+  // Create nodes with data binding
+  const node = nodeGroup
     .selectAll("circle")
     .data(data.nodes)
     .join("circle")
     .attr("r", (d) => radiusScale(d.occurrence))
-    .attr("fill", "#69b3a2")
-    .append("title")
-    .text((d) => d.name);
+    .attr("fill", "#69b3a2");
 
+  // Add tooltips to nodes
+  node.append("title").text((d) => d.name);
+
+  // Simulation tick
   simulation.on("tick", () => {
     link
       .attr("x1", (d) => d.source.x)
@@ -67,9 +77,31 @@ d3.json("network.json").then((data) => {
       .attr("x2", (d) => d.target.x)
       .attr("y2", (d) => d.target.y);
 
-    svg
-      .selectAll("circle")
-      .attr("cx", (d) => d.x)
-      .attr("cy", (d) => d.y);
+    node.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
   });
+
+  const tooltip = d3
+    .select("body")
+    .append("div")
+    .attr("class", "tooltip")
+    .style("position", "absolute")
+    .style("background", "#fff")
+    .style("padding", "5px")
+    .style("border", "1px solid #ccc")
+    .style("border-radius", "3px")
+    .style("visibility", "hidden");
+
+  node
+    .on("mouseover", function (event, d) {
+      tooltip.text(d.name);
+      tooltip.style("visibility", "visible");
+    })
+    .on("mousemove", function (event) {
+      tooltip
+        .style("top", event.pageY - 10 + "px")
+        .style("left", event.pageX + 10 + "px");
+    })
+    .on("mouseout", function () {
+      tooltip.style("visibility", "hidden");
+    });
 });
