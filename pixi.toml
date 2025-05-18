@@ -9,7 +9,7 @@ version = "0.1.0"
 nvim = "nvim"
 get_characters = "python src/get_characters.py"
 books = "python src/parse_books.py"
-network = "python src/make_network.py"
+cooccurence = "python src/make_cooccurence.py"
 
 [dependencies]
 python = "3.12.*"
