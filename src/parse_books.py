@@ -1,12 +1,16 @@
 import os
 import re
 from collections.abc import Iterator
+from functools import reduce
 from pathlib import Path
 from typing import Literal
 
+import polars as pl
 import spacy
 from dotenv import load_dotenv
 from tqdm import tqdm
+
+from data_types import Series
 
 load_dotenv()
 
@@ -14,8 +18,27 @@ _BOOKS_DIR = os.getenv("BOOKS_DIR")
 assert _BOOKS_DIR
 BOOKS_DIR = Path(_BOOKS_DIR)
 
-series_names = {}
+CHAR_DIR = Path("data/characters/")
 
+BOOK2SERIES: dict[str, Series] = {
+    "Mistborn_ The Final Empire - Brandon Sanderson": Series.MISTBORN,
+    "Warbreaker - Brandon Sanderson": Series.WARBREAKER,
+    "Elantris - Brandon Sanderson": Series.ELANTRIS,
+}
+PLANET2SERIES: dict[str, Series] = {
+    "First of the Sun": Series.SIXTH_OF_THE_DUSK,
+    "Nalthas": Series.WARBREAKER,
+    "Roshar": Series.STORMLIGHT,
+    "Scadrial": Series.MISTBORN,
+    "Sel": Series.ELANTRIS,
+    "Taldain": Series.WHITE_SAND,
+    "Threnody": Series.SHADOWS_FOR_SILENCE,
+}
+SERIES2MODE: dict[Series, Literal["break_asterisks", "chapter_x"]] = {
+    Series.MISTBORN: "chapter_x",
+    Series.WARBREAKER: "chapter_x",
+    Series.ELANTRIS: "break_asterisks",
+}
 
 # def stream_tokens(
 #     nlp: spacy.language.Language,
@@ -121,8 +144,26 @@ def stream_lines_w_metadata(
                     yield (chapter_count, token.text)
 
 
-def get_char_name(word: str) -> str | None:
-    pass
+def prepare_chars() -> dict[tuple[Series, str], str]:
+    res: list[dict[tuple[Series, str], str]] = []
+    char_files = list(CHAR_DIR.rglob("*.parquet"))
+    print(f"Character files discovered - {len(char_files):,}")
+    print("-" * 30)
+
+    for char_file in char_files:
+        series = PLANET2SERIES[char_file.stem]
+        loc_df = pl.read_parquet(char_file)
+        res1: list[dict[str, str]] = (
+            loc_df.with_columns(pl.col("aliases").list.concat(pl.col("name")))
+            .select("name", "aliases")
+            .explode("aliases")
+            .to_dicts()
+        )
+        res2 = ({(series, x["aliases"]): x["name"]} for x in res1)
+        res3 = reduce(lambda x, y: x | y, res2, {})
+        res.append(res3)
+    fin = reduce(lambda x, y: x | y, res, {})
+    return fin
 
 
 def main() -> None:
@@ -135,29 +176,35 @@ def main() -> None:
 
     txt_files = BOOKS_DIR.rglob("*.txt")
     txt_files = list(txt_files)
-    # print(txt_files)
+    print(f"Book txt files discovered - {len(txt_files):,}")
+    print("-" * 30)
 
-    c = 0
-    recs = []
-    for book_filename in tqdm(txt_files, total=len(txt_files), desc="Book Files"):
-        # if c < 2:
-        #     continue
-        # for ch_id, word in stream_tokens_by_chapter(nlp, book_filename, "chapter_x"):
-        mode = "chapter_x" if "Elantris" in book_filename.name else "break_asterisks"
-        for ch_id, word in stream_lines_w_metadata(nlp, book_filename, mode):
-            if char_name := get_char_name(word):
-                recs.append(
-                    {
-                        "series": series_names[book_filename],
-                        "chapter_id": ch_id,
-                        "name": char_name,
-                    },
-                )
-            # print(ch_id, word)
-            # if c == 1000:
-            #     break
-            c += 1
-        # break
+    chars_name_mapping = prepare_chars()
+    print(f"Character name mapping ready - {len(chars_name_mapping):,}")
+    print("-" * 30)
+
+    # c = 0
+    # recs = []
+    # for book_filename in tqdm(txt_files, total=len(txt_files), desc="Book Files"):
+    #     series = SERIES_NAMES_BOOK[book_filename.stem]
+    #     # if c < 2:
+    #     #     continue
+    #     # mode = "chapter_x" if "Elantris" in book_filename.stem else "break_asterisks"
+    #     mode = MODE_SERIES[series]
+    #     for ch_id, word in stream_lines_w_metadata(nlp, book_filename, mode):
+    #         if canonical_char_name := chars_name_mapping.get((series, word)):
+    #             recs.append(
+    #                 {
+    #                     "series": series.value,
+    #                     "chapter_id": ch_id,
+    #                     "name": canonical_char_name,
+    #                 },
+    #             )
+    #         # print(ch_id, word)
+    #         # if c == 1000:
+    #         #     break
+    #         c += 1
+    #     # break
 
 
 if __name__ == "__main__":
