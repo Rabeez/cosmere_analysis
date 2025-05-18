@@ -10,25 +10,27 @@ OUTPUT_FILE = Path("temp.json")
 def main() -> None:
     main_df = pl.read_parquet(INPUT_FILE)
 
-    # Create nodes by counting unique character occurrences
+    # Combine 'char1' and 'char2' into a single 'character' column
     characters = pl.concat(
         [
             main_df.select(pl.col("char1").alias("character")),
             main_df.select(pl.col("char2").alias("character")),
         ],
-    ).unique()
+    )
 
     # Count occurrences for each character
     node_data = (
         characters.group_by("character")
-        .agg(occurrence=pl.col("character").count())
+        .agg(pl.count().alias("occurrence"))
         .with_columns(
-            id=pl.col("character"),  # Use character name as ID
-            name=pl.col("character"),  # Use character name as name
+            [
+                pl.col("character").alias("id"),
+                pl.col("character").alias("name"),
+            ],
         )
         .select(["id", "name", "occurrence"])
     )
-    print(node_data)
+    print(node_data.sort("occurrence"))
 
     # Create links by counting interactions
     # Ensure consistent ordering (char1 < char2) to avoid duplicate links
@@ -45,7 +47,7 @@ def main() -> None:
         .agg(weight=pl.col("source").count())
         .filter(pl.col("source") != pl.col("target"))
     )
-    print(links)
+    print(links.sort("weight"))
 
     json_data = {"nodes": node_data.to_dicts(), "links": links.to_dicts()}
     # print(json_data)
