@@ -95,6 +95,10 @@ def prepare_chars() -> dict[tuple[Series, str], str]:
     for char_file in char_files:
         series = PLANET2SERIES[char_file.stem]
         loc_df = pl.read_parquet(char_file)
+        # TODO: Do i need to remove leading/trailing punctuations?
+        # e.g. `'Ene` might be `Ene` in book
+        # TODO: Do i need to remove punctuations in middle of words
+        # e.g. `OreSeur` might be `Ore-Seur` in book
         res1: list[dict[str, str]] = (
             loc_df.with_columns(pl.col("aliases").list.concat(pl.col("name")))
             .select("name", "aliases")
