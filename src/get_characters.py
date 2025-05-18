@@ -55,6 +55,7 @@ def char_info(link_suffix: str) -> list[str]:
         return []
 
     # TODO: Extract full character table as 'metadata'
+    # TODO: if aliases has `others` link then process that section to gather all aliases
     aliases = ""
     for tr in container_elem.css("tr"):
         th = tr.css_first("th")
