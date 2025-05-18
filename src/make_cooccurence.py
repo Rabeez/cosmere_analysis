@@ -43,7 +43,7 @@ def main() -> None:
             .select(["series", "chapter_id", "char1", "char2"])
             .sort(["series", "chapter_id"])
         )
-        output_file = Path("temp.json")
+        output_file = OUTPUT_DIR / "temp.json"
         output_file.unlink(missing_ok=True)
         cooccurence_df.write_parquet(output_file)
         break

@@ -8,7 +8,7 @@ const svg = d3
   .attr("viewBox", [0, 0, width, height])
   .attr("preserveAspectRatio", "xMidYMid meet");
 
-d3.json("data/network_temp/temp.json").then((data) => {
+d3.json("temp.json").then((data) => {
   console.log("JSON Data:", data); // Log to verify data structure
 
   const linkScale = d3
