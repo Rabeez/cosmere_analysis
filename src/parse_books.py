@@ -19,6 +19,7 @@ assert _BOOKS_DIR
 BOOKS_DIR = Path(_BOOKS_DIR)
 
 CHAR_DIR = Path("data/characters/")
+OUTPUT_FILE = Path("data/occurences.parquet")
 
 BOOK2SERIES: dict[str, Series] = {
     "Mistborn_ The Final Empire - Brandon Sanderson": Series.MISTBORN,
@@ -35,9 +36,9 @@ PLANET2SERIES: dict[str, Series] = {
     "Threnody": Series.SHADOWS_FOR_SILENCE,
 }
 SERIES2MODE: dict[Series, Literal["break_asterisks", "chapter_x"]] = {
-    Series.MISTBORN: "chapter_x",
-    Series.WARBREAKER: "chapter_x",
-    Series.ELANTRIS: "break_asterisks",
+    Series.MISTBORN: "break_asterisks",
+    Series.WARBREAKER: "break_asterisks",
+    Series.ELANTRIS: "chapter_x",
 }
 
 # def stream_tokens(
@@ -132,7 +133,6 @@ def stream_lines_w_metadata(
     chapter_regex = re.compile(chapter_pattern, re.MULTILINE | re.IGNORECASE)
 
     chapter_count = 0
-
     with file_path.open("r") as f:
         for line in f:
             m = chapter_regex.match(line.strip())
@@ -170,12 +170,9 @@ def main() -> None:
     nlp = spacy.load(
         "en_core_web_sm",
         enable=["tokenizer"],
-        # disable=["parser", "ner", "lemmatizer", "textcat"],
     )
-    # nlp.max_length = 500_000
 
-    txt_files = BOOKS_DIR.rglob("*.txt")
-    txt_files = list(txt_files)
+    txt_files = list(BOOKS_DIR.rglob("*.txt"))
     print(f"Book txt files discovered - {len(txt_files):,}")
     print("-" * 30)
 
@@ -183,28 +180,27 @@ def main() -> None:
     print(f"Character name mapping ready - {len(chars_name_mapping):,}")
     print("-" * 30)
 
-    # c = 0
-    # recs = []
-    # for book_filename in tqdm(txt_files, total=len(txt_files), desc="Book Files"):
-    #     series = SERIES_NAMES_BOOK[book_filename.stem]
-    #     # if c < 2:
-    #     #     continue
-    #     # mode = "chapter_x" if "Elantris" in book_filename.stem else "break_asterisks"
-    #     mode = MODE_SERIES[series]
-    #     for ch_id, word in stream_lines_w_metadata(nlp, book_filename, mode):
-    #         if canonical_char_name := chars_name_mapping.get((series, word)):
-    #             recs.append(
-    #                 {
-    #                     "series": series.value,
-    #                     "chapter_id": ch_id,
-    #                     "name": canonical_char_name,
-    #                 },
-    #             )
-    #         # print(ch_id, word)
-    #         # if c == 1000:
-    #         #     break
-    #         c += 1
-    #     # break
+    records = []
+    for book_filename in tqdm(txt_files, total=len(txt_files), desc="Book Files"):
+        series = BOOK2SERIES[book_filename.stem]
+        mode = SERIES2MODE[series]
+        for ch_id, word in tqdm(
+            stream_lines_w_metadata(nlp, book_filename, mode),
+            desc="Book lines",
+            leave=False,
+        ):
+            if canonical_char_name := chars_name_mapping.get((series, word)):
+                records.append(
+                    {
+                        "series": series.value,
+                        "chapter_id": ch_id,
+                        "name": canonical_char_name,
+                    },
+                )
+        break
+    OUTPUT_FILE.unlink(missing_ok=True)
+    chars_df = pl.DataFrame(records)
+    chars_df.write_parquet(OUTPUT_FILE)
 
 
 if __name__ == "__main__":
