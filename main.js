@@ -14,7 +14,7 @@ d3.json("temp.json").then((data) => {
   const linkScale = d3
     .scaleLinear()
     .domain(d3.extent(data.links, (d) => d.weight))
-    .range([1, 5]);
+    .range([0.5, 5]);
 
   const opacityScale = d3
     .scaleLinear()
@@ -33,10 +33,25 @@ d3.json("temp.json").then((data) => {
       d3
         .forceLink(data.links)
         .id((d) => d.id)
-        .distance(100),
+        .distance(100)
+        .strength((d) => {
+          const sourceOccurrence = d.source.occurrence || 1;
+          const targetOccurrence = d.target.occurrence || 1;
+          const avgOccurrence = (sourceOccurrence + targetOccurrence) / 2;
+          return (
+            avgOccurrence / Math.max(...data.nodes.map((n) => n.occurrence))
+          );
+        }),
     )
     .force("charge", d3.forceManyBody().strength(-200))
     .force("center", d3.forceCenter(width / 2, height / 2))
+    .force(
+      "collide",
+      d3
+        .forceCollide()
+        .radius((d) => radiusScale(d.occurrence))
+        .iterations(2),
+    )
     .on("end", () => {
       simulation.stop();
     });
@@ -104,4 +119,19 @@ d3.json("temp.json").then((data) => {
     .on("mouseout", function () {
       tooltip.style("visibility", "hidden");
     });
+
+  node.on("click", function (event, d) {
+    const infoPanel = d3.select("#node-info");
+    const details = d3.select("#node-details");
+    details.html("");
+
+    for (const [key, value] of Object.entries(d)) {
+      details.append("div").html(`<strong>${key}:</strong> ${value}`);
+    }
+
+    infoPanel.style("display", "block");
+  });
+  d3.select("#close-panel").on("click", function () {
+    d3.select("#node-info").style("display", "none");
+  });
 });

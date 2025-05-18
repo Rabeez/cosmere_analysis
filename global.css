@@ -12,3 +12,30 @@ body {
   display: block;
   padding: 2px;
 }
+
+#node-info {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 250px;
+  max-height: 300px;
+  overflow-y: auto;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-size: 14px;
+  display: none;
+  z-index: 1000;
+}
+
+#close-panel {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
