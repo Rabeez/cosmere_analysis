@@ -4,7 +4,7 @@ from pathlib import Path
 import polars as pl
 
 INPUT_FILE = Path("data/cooccurence/Mistborn_ The Final Empire - Brandon Sanderson.parquet")
-OUTPUT_FILE = Path("data/network_temp/temp.json")
+OUTPUT_FILE = Path("temp.json")
 
 
 def main() -> None:
@@ -48,10 +48,10 @@ def main() -> None:
     print(links)
 
     json_data = {"nodes": node_data.to_dicts(), "links": links.to_dicts()}
-    print(json_data)
+    # print(json_data)
 
     with OUTPUT_FILE.open("w") as f:
-        json_output = json.dump(json_data, f)
+        json.dump(json_data, f)
 
 
 if __name__ == "__main__":
