@@ -19,7 +19,7 @@ assert _BOOKS_DIR
 BOOKS_DIR = Path(_BOOKS_DIR)
 
 CHAR_DIR = Path("data/characters/")
-OUTPUT_FILE = Path("data/occurences.parquet")
+OUTPUT_DIR = Path("data/occurences/")
 
 BOOK2SERIES: dict[str, Series] = {
     "Mistborn_ The Final Empire - Brandon Sanderson": Series.MISTBORN,
@@ -143,10 +143,11 @@ def main() -> None:
                         "name": canonical_char_name,
                     },
                 )
+        output_file = OUTPUT_DIR / f"{book_filename.stem}.parquet"
+        output_file.unlink(missing_ok=True)
+        chars_df = pl.DataFrame(records)
+        chars_df.write_parquet(output_file)
         break
-    OUTPUT_FILE.unlink(missing_ok=True)
-    chars_df = pl.DataFrame(records)
-    chars_df.write_parquet(OUTPUT_FILE)
 
 
 if __name__ == "__main__":
