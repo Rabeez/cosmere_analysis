@@ -4,6 +4,7 @@ import polars as pl
 from tqdm import tqdm
 
 INPUT_DIR = Path("data/occurences/")
+OUTPUT_DIR = Path("data/cooccurence/")
 
 
 def generate_pairs(names: list[str]) -> list[tuple[str, str]]:
@@ -23,7 +24,6 @@ def main() -> None:
         desc="Files",
     ):
         occurence_df = pl.read_parquet(char_occurence_file)
-        print(occurence_df)
         unique_chars = occurence_df.group_by(["series", "chapter_id"]).agg(
             names=pl.col("name").unique().sort(),
         )
@@ -43,7 +43,9 @@ def main() -> None:
             .select(["series", "chapter_id", "char1", "char2"])
             .sort(["series", "chapter_id"])
         )
-        print(cooccurence_df)
+        output_file = OUTPUT_DIR / f"{char_occurence_file.stem}.parquet"
+        output_file.unlink(missing_ok=True)
+        cooccurence_df.write_parquet(output_file)
         break
 
 
