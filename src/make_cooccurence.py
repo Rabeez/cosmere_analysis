@@ -41,6 +41,7 @@ def main() -> None:
                 char2=pl.col("pairs").list.get(1),
             )
             .select(["series", "chapter_id", "char1", "char2"])
+            .unique()
             .sort(["series", "chapter_id"])
         )
         output_file = OUTPUT_DIR / f"{char_occurence_file.stem}.parquet"

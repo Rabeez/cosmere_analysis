@@ -8,18 +8,35 @@ const svg = d3
   .attr("viewBox", [0, 0, width, height])
   .attr("preserveAspectRatio", "xMidYMid meet");
 
+const container = svg.append("g");
+const linkGroup = container.append("g").attr("stroke", "#999");
+const nodeGroup = container
+  .append("g")
+  .attr("stroke", "#fff")
+  .attr("stroke-width", 1.5);
+
+const zoom = d3
+  .zoom()
+  .scaleExtent([0.5, 5]) // Adjust the scale limits as needed
+  .on("zoom", (event) => {
+    console.log("zoom");
+    container.attr("transform", event.transform);
+  });
+
+svg.call(zoom);
+
 d3.json("temp.json").then((data) => {
-  console.log("JSON Data:", data); // Log to verify data structure
+  console.log("JSON Data:", data);
 
   const linkScale = d3
     .scaleLinear()
     .domain(d3.extent(data.links, (d) => d.weight))
-    .range([0.5, 5]);
+    .range([0.9, 2]);
 
   const opacityScale = d3
     .scaleLinear()
     .domain(d3.extent(data.links, (d) => d.weight))
-    .range([0.3, 1]);
+    .range([0.9, 1]);
 
   const radiusScale = d3
     .scaleSqrt()
@@ -42,6 +59,12 @@ d3.json("temp.json").then((data) => {
             avgOccurrence / Math.max(...data.nodes.map((n) => n.occurrence))
           );
         }),
+      // .distance((d) => {
+      //   const sourceOccurrence = d.source.occurrence || 1;
+      //   const targetOccurrence = d.target.occurrence || 1;
+      //   const avgOccurrence = (sourceOccurrence + targetOccurrence) / 2;
+      //   return 10000 / avgOccurrence; // Adjust the divisor as needed
+      // }),
     )
     .force("charge", d3.forceManyBody().strength(-200))
     .force("center", d3.forceCenter(width / 2, height / 2))
@@ -56,8 +79,11 @@ d3.json("temp.json").then((data) => {
       simulation.stop();
     });
 
-  // Create link group
-  const linkGroup = svg.append("g").attr("stroke", "#999");
+  // Global positing
+  d3.forceCenter(width / 2, height / 2);
+  d3.forceX(width / 2).strength(0.5);
+  d3.forceY(height / 2).strength(0.5);
+  d3.forceManyBody().strength(-300).distanceMax(3000);
 
   // Create links with data binding
   const link = linkGroup
@@ -66,12 +92,6 @@ d3.json("temp.json").then((data) => {
     .join("line")
     .attr("stroke-width", (d) => linkScale(d.weight))
     .attr("stroke-opacity", (d) => opacityScale(d.weight));
-
-  // Create node group
-  const nodeGroup = svg
-    .append("g")
-    .attr("stroke", "#fff")
-    .attr("stroke-width", 1.5);
 
   // Create nodes with data binding
   const node = nodeGroup

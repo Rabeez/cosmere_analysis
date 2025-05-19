@@ -2,69 +2,54 @@ import json
 from pathlib import Path
 
 import polars as pl
-from tqdm import tqdm
 
-INPUT_DIR = Path("data/cooccurence/")
-INPUT_FILE = Path("data/cooccurence/Mistborn_ The Final Empire - Brandon Sanderson.parquet")
+INPUT_DIR_OC = Path("data/occurences/")
+INPUT_DIR_COOC = Path("data/cooccurence/")
 OUTPUT_FILE = Path("temp.json")
 
 
 def main() -> None:
-    res = None
-    files = list(INPUT_DIR.glob("*.parquet"))
-    print(f"Character co-occurence files discovered - {len(files):,}")
+    # TODO: have fixed schema for this JSON dict using better types
+    res = {}
+
+    files = list(INPUT_DIR_OC.glob("*.parquet"))
+    print(f"Character occurence files discovered - {len(files):,}")
+
+    edges_df = (
+        pl.concat([pl.read_parquet(fn) for fn in files])
+        .with_columns(
+            id=pl.concat_str("series", "name", separator="_"),
+        )
+        .group_by("id", "series", "name")
+        .agg(pl.len().alias("occurrence"))
+        .sort("id", "series", "name")
+    )
+    # print(nodes_df.sort("occurrence"))
+    res["nodes"] = edges_df.to_dicts()
     print("-" * 30)
 
-    for file in tqdm(files, desc="Files", total=len(files)):
-        main_df = pl.read_parquet(file)
-        # Combine 'char1' and 'char2' into a single 'character' column
-        characters = pl.concat(
-            [
-                main_df.select(["series", pl.col("char1").alias("character")]),
-                main_df.select(["series", pl.col("char2").alias("character")]),
-            ],
+    files = list(INPUT_DIR_COOC.glob("*.parquet"))
+    print(f"Character co-occurence files discovered - {len(files):,}")
+    edges_df = (
+        pl.concat([pl.read_parquet(fn) for fn in files])
+        .with_columns(
+            pl.concat_str(pl.col("series"), pl.col("char1"), separator="_").alias("source"),
+            pl.concat_str(pl.col("series"), pl.col("char2"), separator="_").alias("target"),
         )
+        .group_by("source", "target", "series")
+        .agg(pl.len().alias("weight"))
+        .filter(pl.col("weight") >= 5)
+        .filter(pl.col("source") != pl.col("target"))
+        .sort("source", "target", "series")
+    )
+    # print(edges_df.sort("weight"))
+    res["edges"] = []  # edges_df.to_dicts()
+    print("-" * 30)
 
-        # Count occurrences for each character
-        node_data = (
-            characters.group_by(["series", "character"])
-            .agg(pl.len().alias("occurrence"))
-            .with_columns([pl.col("character").alias("id"), pl.col("character").alias("name")])
-            .select(["series", "id", "name", "occurrence"])
-        )
-        # print(node_data.sort("occurrence"))
-
-        # Create links by counting interactions
-        # Ensure consistent ordering (char1 < char2) to avoid duplicate links
-        links = (
-            main_df.with_columns(
-                [
-                    pl.when(pl.col("char1") < pl.col("char2"))
-                    .then(pl.col("char1"))
-                    .otherwise(pl.col("char2"))
-                    .alias("source"),
-                    pl.when(pl.col("char1") < pl.col("char2"))
-                    .then(pl.col("char2"))
-                    .otherwise(pl.col("char1"))
-                    .alias("target"),
-                ],
-            )
-            .group_by(["series", "source", "target"])
-            .agg(pl.len().alias("weight"))
-            .filter(pl.col("source") != pl.col("target"))
-        )
-        # print(links.sort("weight"))
-
-        if res is None:
-            res = {"nodes": node_data.to_dicts(), "links": links.to_dicts()}
-        else:
-            res["nodes"].extend(node_data.to_dicts())
-            res["links"].extend(links.to_dicts())
-        # print(json_data)
-        # break
-
+    print(f"Saving network data w/ {len(res['nodes']):,} nodes and {len(res['edges']):,} edges")
+    print("-" * 30)
     with OUTPUT_FILE.open("w") as f:
-        json.dump(res, f)
+        json.dump(res, f, indent=2)
 
 
 if __name__ == "__main__":
