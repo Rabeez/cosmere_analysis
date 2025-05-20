@@ -38,15 +38,15 @@ def main() -> None:
         )
         .group_by("source", "target", "series")
         .agg(pl.len().alias("weight"))
-        .filter(pl.col("weight") >= 5)
+        # .filter(pl.col("weight") >= 5)
         .filter(pl.col("source") != pl.col("target"))
         .sort("source", "target", "series")
     )
     # print(edges_df.sort("weight"))
-    res["edges"] = []  # edges_df.to_dicts()
+    res["links"] = edges_df.to_dicts()
     print("-" * 30)
 
-    print(f"Saving network data w/ {len(res['nodes']):,} nodes and {len(res['edges']):,} edges")
+    print(f"Saving network data w/ {len(res['nodes']):,} nodes and {len(res['links']):,} edges")
     print("-" * 30)
     with OUTPUT_FILE.open("w") as f:
         json.dump(res, f, indent=2)
