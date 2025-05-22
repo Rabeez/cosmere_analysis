@@ -23,7 +23,7 @@ const zoom = d3
 svg.call(zoom);
 
 d3.json("temp.json").then((data) => {
-  const filteredNodes = data.nodes.filter((d) => d.occurrence > 2);
+  const filteredNodes = data.nodes.filter((d) => d.occurrence > 10);
   const nodeIds = new Set(filteredNodes.map((d) => d.id));
   const filteredLinks = data.links.filter(
     (d) =>
