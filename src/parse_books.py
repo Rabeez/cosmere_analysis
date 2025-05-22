@@ -19,6 +19,7 @@ assert _BOOKS_DIR
 BOOKS_DIR = Path(_BOOKS_DIR)
 
 CHAR_DIR = Path("data/characters/")
+CHAR_FILE = Path("data/all_cosmere_characters.parquet")
 OUTPUT_DIR = Path("data/occurences/")
 
 BOOK2SERIES: dict[str, Series] = {
@@ -77,6 +78,10 @@ def stream_lines_w_metadata(
     chapter_count = 0
     with file_path.open("r") as f:
         for line in f:
+            if file_path.stem == "Warbreaker - Brandon Sanderson" and line.startswith(
+                "Sample Chapters of Mistborn"
+            ):
+                break
             m = chapter_regex.match(line.strip())
             if m:
                 chapter_count += 1
@@ -86,29 +91,42 @@ def stream_lines_w_metadata(
                     yield (chapter_count, token.text)
 
 
-def prepare_chars() -> dict[tuple[Series, str], str]:
-    res: list[dict[tuple[Series, str], str]] = []
-    char_files = list(CHAR_DIR.rglob("*.parquet"))
-    print(f"Character files discovered - {len(char_files):,}")
-    print("-" * 30)
+# def prepare_chars() -> dict[tuple[Series, str], str]:
+#     res: list[dict[tuple[Series, str], str]] = []
+#     char_files = list(CHAR_DIR.rglob("*.parquet"))
+#     print(f"Character files discovered - {len(char_files):,}")
+#     print("-" * 30)
+#
+#     for char_file in char_files:
+#         series = PLANET2SERIES[char_file.stem]
+#         loc_df = pl.read_parquet(char_file)
+#         res1: list[dict[str, str]] = (
+#             loc_df.with_columns(pl.col("aliases").list.concat(pl.col("name")))
+#             .select("name", "aliases")
+#             .explode("aliases")
+#             .to_dicts()
+#         )
+#         res2 = ({(series, x["aliases"]): x["name"]} for x in res1)
+#         res3 = reduce(lambda x, y: x | y, res2, {})
+#         res.append(res3)
+#     fin = reduce(lambda x, y: x | y, res, {})
+#     return fin
 
-    for char_file in char_files:
-        series = PLANET2SERIES[char_file.stem]
-        loc_df = pl.read_parquet(char_file)
-        # TODO: Do i need to remove leading/trailing punctuations?
-        # e.g. `'Ene` might be `Ene` in book
-        # TODO: Do i need to remove punctuations in middle of words
-        # e.g. `OreSeur` might be `Ore-Seur` in book
-        res1: list[dict[str, str]] = (
-            loc_df.with_columns(pl.col("aliases").list.concat(pl.col("name")))
-            .select("name", "aliases")
-            .explode("aliases")
-            .to_dicts()
-        )
-        res2 = ({(series, x["aliases"]): x["name"]} for x in res1)
-        res3 = reduce(lambda x, y: x | y, res2, {})
-        res.append(res3)
-    fin = reduce(lambda x, y: x | y, res, {})
+
+def prepare_chars2() -> dict[str, str]:
+    char_df = (
+        pl.read_parquet(CHAR_FILE)
+        .with_columns(pl.col("aliases").list.concat(pl.col("name")).list.unique())
+        .select("name", "aliases")
+        .explode("aliases")
+    )
+    # TODO: Do i need to remove leading/trailing punctuations?
+    # e.g. `'Ene` might be `Ene` in book
+    # TODO: Do i need to remove punctuations in middle of words
+    # e.g. `OreSeur` might be `Ore-Seur` in book
+    res1: list[dict[str, str]] = char_df.to_dicts()
+    res = ({x["aliases"]: x["name"]} for x in res1)
+    fin: dict[str, str] = reduce(lambda x, y: x | y, res, {})
     return fin
 
 
@@ -122,7 +140,7 @@ def main() -> None:
     print(f"Book txt files discovered - {len(txt_files):,}")
     print("-" * 30)
 
-    chars_name_mapping = prepare_chars()
+    chars_name_mapping = prepare_chars2()
     print(f"Character name mapping ready - {len(chars_name_mapping):,}")
     print("-" * 30)
 
@@ -135,7 +153,7 @@ def main() -> None:
             desc="Book lines",
             leave=False,
         ):
-            if canonical_char_name := chars_name_mapping.get((series, word)):
+            if canonical_char_name := chars_name_mapping.get(word):
                 records.append(
                     {
                         "series": series.value,

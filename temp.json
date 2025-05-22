@@ -4,1248 +4,1862 @@
       "id": "elantris_Adien",
       "series": "elantris",
       "name": "Adien",
+      "homeworld": "Sel",
       "occurrence": 29
     },
     {
       "id": "elantris_Ahan",
       "series": "elantris",
       "name": "Ahan",
+      "homeworld": "Sel",
       "occurrence": 126
     },
     {
       "id": "elantris_Alonoe",
       "series": "elantris",
       "name": "Alonoe",
+      "homeworld": "Sel",
       "occurrence": 2
     },
     {
       "id": "elantris_Ashe",
       "series": "elantris",
       "name": "Ashe",
+      "homeworld": "Sel",
       "occurrence": 258
     },
     {
       "id": "elantris_Ashgress",
       "series": "elantris",
       "name": "Ashgress",
+      "homeworld": "Sel",
       "occurrence": 2
     },
     {
       "id": "elantris_Atara",
       "series": "elantris",
       "name": "Atara",
+      "homeworld": "Sel",
       "occurrence": 8
+    },
+    {
+      "id": "elantris_Call",
+      "series": "elantris",
+      "name": "Call",
+      "homeworld": "Scadrial",
+      "occurrence": 2
+    },
+    {
+      "id": "elantris_Conrad",
+      "series": "elantris",
+      "name": "Conrad",
+      "homeworld": "Scadrial",
+      "occurrence": 1
+    },
+    {
+      "id": "elantris_Creer",
+      "series": "elantris",
+      "name": "Creer",
+      "homeworld": "Roshar",
+      "occurrence": 1
     },
     {
       "id": "elantris_Dahad",
       "series": "elantris",
       "name": "Dahad",
+      "homeworld": "Sel",
       "occurrence": 1
     },
     {
       "id": "elantris_Daora",
       "series": "elantris",
       "name": "Daora",
+      "homeworld": "Sel",
       "occurrence": 46
     },
     {
       "id": "elantris_Daorn",
       "series": "elantris",
       "name": "Daorn",
+      "homeworld": "Sel",
       "occurrence": 32
     },
     {
       "id": "elantris_Dashe",
       "series": "elantris",
       "name": "Dashe",
+      "homeworld": "Sel",
       "occurrence": 32
+    },
+    {
+      "id": "elantris_Demoux",
+      "series": "elantris",
+      "name": "Demoux",
+      "homeworld": "Scadrial",
+      "occurrence": 1
     },
     {
       "id": "elantris_Dereth",
       "series": "elantris",
       "name": "Dereth",
+      "homeworld": "Sel",
       "occurrence": 83
     },
     {
       "id": "elantris_Dilaf",
       "series": "elantris",
       "name": "Dilaf",
+      "homeworld": "Sel",
       "occurrence": 400
     },
     {
       "id": "elantris_Dio",
       "series": "elantris",
       "name": "Dio",
+      "homeworld": "Sel",
       "occurrence": 3
     },
     {
       "id": "elantris_Diolen",
       "series": "elantris",
       "name": "Diolen",
+      "homeworld": "Sel",
       "occurrence": 1
     },
     {
       "id": "elantris_Dion",
       "series": "elantris",
       "name": "Dion",
+      "homeworld": "Sel",
       "occurrence": 2
     },
     {
       "id": "elantris_Diren",
       "series": "elantris",
       "name": "Diren",
+      "homeworld": "Sel",
       "occurrence": 14
     },
     {
       "id": "elantris_Dothgen",
       "series": "elantris",
       "name": "Dothgen",
+      "homeworld": "Sel",
       "occurrence": 3
     },
     {
       "id": "elantris_Edan",
       "series": "elantris",
       "name": "Edan",
+      "homeworld": "Sel",
       "occurrence": 43
     },
     {
       "id": "elantris_Elao",
       "series": "elantris",
       "name": "Elao",
+      "homeworld": "Sel",
       "occurrence": 2
     },
     {
       "id": "elantris_Eoden",
       "series": "elantris",
       "name": "Eoden",
+      "homeworld": "Sel",
       "occurrence": 1
     },
     {
       "id": "elantris_Eoldess",
       "series": "elantris",
       "name": "Eoldess",
+      "homeworld": "Sel",
       "occurrence": 1
     },
     {
       "id": "elantris_Eondel",
       "series": "elantris",
       "name": "Eondel",
+      "homeworld": "Sel",
       "occurrence": 168
     },
     {
       "id": "elantris_Eonic",
       "series": "elantris",
       "name": "Eonic",
+      "homeworld": "Sel",
       "occurrence": 1
     },
     {
       "id": "elantris_Eshen",
       "series": "elantris",
       "name": "Eshen",
+      "homeworld": "Sel",
       "occurrence": 38
     },
     {
       "id": "elantris_Eton",
       "series": "elantris",
       "name": "Eton",
+      "homeworld": "Sel",
       "occurrence": 67
     },
     {
       "id": "elantris_Eventeo",
       "series": "elantris",
       "name": "Eventeo",
+      "homeworld": "Sel",
       "occurrence": 76
     },
     {
       "id": "elantris_Fjon",
       "series": "elantris",
       "name": "Fjon",
+      "homeworld": "Sel",
       "occurrence": 45
     },
     {
       "id": "elantris_Forton",
       "series": "elantris",
       "name": "Forton",
+      "homeworld": "Sel",
       "occurrence": 30
     },
     {
       "id": "elantris_Galladon",
       "series": "elantris",
       "name": "Galladon",
+      "homeworld": "Sel",
       "occurrence": 625
     },
     {
       "id": "elantris_Gatrii",
       "series": "elantris",
       "name": "Gatrii",
+      "homeworld": "Sel",
       "occurrence": 4
     },
     {
       "id": "elantris_Graeo",
       "series": "elantris",
       "name": "Graeo",
+      "homeworld": "Sel",
       "occurrence": 6
     },
     {
       "id": "elantris_Grondkest",
       "series": "elantris",
       "name": "Grondkest",
+      "homeworld": "Sel",
       "occurrence": 1
+    },
+    {
+      "id": "elantris_Hoid",
+      "series": "elantris",
+      "name": "Hoid",
+      "homeworld": "Yolen",
+      "occurrence": 55
     },
     {
       "id": "elantris_Horen",
       "series": "elantris",
       "name": "Horen",
+      "homeworld": "Sel",
       "occurrence": 3
     },
     {
       "id": "elantris_Hrathen",
       "series": "elantris",
       "name": "Hrathen",
+      "homeworld": "Sel",
       "occurrence": 1090
     },
     {
       "id": "elantris_Iadon",
       "series": "elantris",
       "name": "Iadon",
+      "homeworld": "Sel",
       "occurrence": 348
     },
     {
       "id": "elantris_Idan",
       "series": "elantris",
       "name": "Idan",
+      "homeworld": "Sel",
       "occurrence": 13
     },
     {
       "id": "elantris_Ien",
       "series": "elantris",
       "name": "Ien",
+      "homeworld": "Sel",
       "occurrence": 40
+    },
+    {
+      "id": "elantris_Izumakamo",
+      "series": "elantris",
+      "name": "Izumakamo",
+      "homeworld": "Komashi",
+      "occurrence": 1
     },
     {
       "id": "elantris_Jalla",
       "series": "elantris",
       "name": "Jalla",
+      "homeworld": "Sel",
       "occurrence": 12
     },
     {
       "id": "elantris_Kahar",
       "series": "elantris",
       "name": "Kahar",
+      "homeworld": "Sel",
       "occurrence": 34
     },
     {
       "id": "elantris_Kaise",
       "series": "elantris",
       "name": "Kaise",
+      "homeworld": "Sel",
       "occurrence": 71
+    },
+    {
+      "id": "elantris_Kaladin",
+      "series": "elantris",
+      "name": "Kaladin",
+      "homeworld": "Roshar",
+      "occurrence": 1
     },
     {
       "id": "elantris_Karata",
       "series": "elantris",
       "name": "Karata",
+      "homeworld": "Sel",
       "occurrence": 221
     },
     {
       "id": "elantris_Keseg",
       "series": "elantris",
       "name": "Keseg",
+      "homeworld": "Sel",
       "occurrence": 11
     },
     {
       "id": "elantris_Ketol",
       "series": "elantris",
       "name": "Ketol",
+      "homeworld": "Sel",
       "occurrence": 8
     },
     {
       "id": "elantris_Kiin",
       "series": "elantris",
       "name": "Kiin",
+      "homeworld": "Sel",
       "occurrence": 248
     },
     {
       "id": "elantris_Korath",
       "series": "elantris",
       "name": "Korath",
+      "homeworld": "Sel",
       "occurrence": 31
+    },
+    {
+      "id": "elantris_Lift",
+      "series": "elantris",
+      "name": "Lift",
+      "homeworld": "Roshar",
+      "occurrence": 1
     },
     {
       "id": "elantris_Loren",
       "series": "elantris",
       "name": "Loren",
+      "homeworld": "Sel",
       "occurrence": 4
     },
     {
       "id": "elantris_Lukel",
       "series": "elantris",
       "name": "Lukel",
+      "homeworld": "Sel",
       "occurrence": 229
     },
     {
       "id": "elantris_Maare",
       "series": "elantris",
       "name": "Maare",
+      "homeworld": "Sel",
       "occurrence": 11
     },
     {
       "id": "elantris_Mai",
       "series": "elantris",
       "name": "Mai",
+      "homeworld": "Sel",
       "occurrence": 2
+    },
+    {
+      "id": "elantris_Maps",
+      "series": "elantris",
+      "name": "Maps",
+      "homeworld": "Roshar",
+      "occurrence": 1
     },
     {
       "id": "elantris_Mareshe",
       "series": "elantris",
       "name": "Mareshe",
+      "homeworld": "Sel",
       "occurrence": 73
     },
     {
       "id": "elantris_Meala",
       "series": "elantris",
       "name": "Meala",
+      "homeworld": "Sel",
       "occurrence": 10
     },
     {
       "id": "elantris_Naolen",
       "series": "elantris",
       "name": "Naolen",
+      "homeworld": "Sel",
       "occurrence": 1
     },
     {
       "id": "elantris_Neoden",
       "series": "elantris",
       "name": "Neoden",
+      "homeworld": "Sel",
       "occurrence": 1
     },
     {
       "id": "elantris_Omin",
       "series": "elantris",
       "name": "Omin",
+      "homeworld": "Sel",
       "occurrence": 48
     },
     {
       "id": "elantris_Opa",
       "series": "elantris",
       "name": "Opa",
+      "homeworld": "Sel",
       "occurrence": 5
     },
     {
       "id": "elantris_Opais",
       "series": "elantris",
       "name": "Opais",
+      "homeworld": "Sel",
+      "occurrence": 1
+    },
+    {
+      "id": "elantris_Push",
+      "series": "elantris",
+      "name": "Push",
+      "homeworld": "Scadrial",
       "occurrence": 1
     },
     {
       "id": "elantris_Ramear",
       "series": "elantris",
       "name": "Ramear",
+      "homeworld": "Sel",
       "occurrence": 6
     },
     {
       "id": "elantris_Raoden",
       "series": "elantris",
       "name": "Raoden",
+      "homeworld": "Sel",
       "occurrence": 1836
     },
     {
       "id": "elantris_Redeen",
       "series": "elantris",
       "name": "Redeen",
+      "homeworld": "Sel",
       "occurrence": 2
     },
     {
       "id": "elantris_Riil",
       "series": "elantris",
       "name": "Riil",
+      "homeworld": "Sel",
       "occurrence": 10
     },
     {
       "id": "elantris_Roial",
       "series": "elantris",
       "name": "Roial",
+      "homeworld": "Sel",
       "occurrence": 388
     },
     {
       "id": "elantris_Saolin",
       "series": "elantris",
       "name": "Saolin",
+      "homeworld": "Sel",
       "occurrence": 86
     },
     {
       "id": "elantris_Sarene",
       "series": "elantris",
       "name": "Sarene",
+      "homeworld": "Sel",
       "occurrence": 1715
     },
     {
       "id": "elantris_Seaden",
       "series": "elantris",
       "name": "Seaden",
+      "homeworld": "Sel",
       "occurrence": 9
     },
     {
       "id": "elantris_Seala",
       "series": "elantris",
       "name": "Seala",
+      "homeworld": "Sel",
       "occurrence": 1
     },
     {
       "id": "elantris_Seinalan",
       "series": "elantris",
       "name": "Seinalan",
+      "homeworld": "Sel",
       "occurrence": 26
     },
     {
       "id": "elantris_Seor",
       "series": "elantris",
       "name": "Seor",
+      "homeworld": "Sel",
       "occurrence": 2
     },
     {
       "id": "elantris_Shaor",
       "series": "elantris",
       "name": "Shaor",
+      "homeworld": "Sel",
       "occurrence": 108
     },
     {
       "id": "elantris_Shuden",
       "series": "elantris",
       "name": "Shuden",
+      "homeworld": "Sel",
       "occurrence": 220
+    },
+    {
+      "id": "elantris_Stone",
+      "series": "elantris",
+      "name": "Stone",
+      "homeworld": "Roshar",
+      "occurrence": 1
     },
     {
       "id": "elantris_Taan",
       "series": "elantris",
       "name": "Taan",
+      "homeworld": "Sel",
       "occurrence": 99
     },
     {
       "id": "elantris_Telrii",
       "series": "elantris",
       "name": "Telrii",
+      "homeworld": "Sel",
       "occurrence": 259
+    },
+    {
+      "id": "elantris_Ten",
+      "series": "elantris",
+      "name": "Ten",
+      "homeworld": "Roshar",
+      "occurrence": 15
     },
     {
       "id": "elantris_Tenrao",
       "series": "elantris",
       "name": "Tenrao",
+      "homeworld": "Sel",
       "occurrence": 1
     },
     {
       "id": "elantris_Teorn",
       "series": "elantris",
       "name": "Teorn",
+      "homeworld": "Sel",
+      "occurrence": 1
+    },
+    {
+      "id": "elantris_Took",
+      "series": "elantris",
+      "name": "Took",
+      "homeworld": "Roshar",
       "occurrence": 1
     },
     {
       "id": "elantris_Torena",
       "series": "elantris",
       "name": "Torena",
+      "homeworld": "Sel",
       "occurrence": 24
+    },
+    {
+      "id": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "name": "Truth-Is-Waiting",
+      "homeworld": "Threnody[1][2]",
+      "occurrence": 2
+    },
+    {
+      "id": "elantris_Vin",
+      "series": "elantris",
+      "name": "Vin",
+      "homeworld": "Scadrial",
+      "occurrence": 1
     },
     {
       "id": "elantris_Waren",
       "series": "elantris",
       "name": "Waren",
+      "homeworld": "Sel",
       "occurrence": 16
+    },
+    {
+      "id": "elantris_Wayne",
+      "series": "elantris",
+      "name": "Wayne",
+      "homeworld": "Scadrial",
+      "occurrence": 1
+    },
+    {
+      "id": "elantris_Wells",
+      "series": "elantris",
+      "name": "Wells",
+      "homeworld": "Scadrial",
+      "occurrence": 5
     },
     {
       "id": "mistborn_Arriev",
       "series": "mistborn",
       "name": "Arriev",
+      "homeworld": "Scadrial",
       "occurrence": 30
     },
     {
       "id": "mistborn_Bendal",
       "series": "mistborn",
       "name": "Bendal",
+      "homeworld": "Scadrial",
       "occurrence": 9
     },
     {
       "id": "mistborn_Bevidon",
       "series": "mistborn",
       "name": "Bevidon",
+      "homeworld": "Scadrial",
       "occurrence": 9
     },
     {
       "id": "mistborn_Bilg",
       "series": "mistborn",
       "name": "Bilg",
+      "homeworld": "Scadrial",
       "occurrence": 129
     },
     {
       "id": "mistborn_Blue",
       "series": "mistborn",
       "name": "Blue",
+      "homeworld": "Scadrial",
       "occurrence": 6
     },
     {
       "id": "mistborn_Braches",
       "series": "mistborn",
       "name": "Braches",
+      "homeworld": "Scadrial",
       "occurrence": 6
     },
     {
       "id": "mistborn_Cabe",
       "series": "mistborn",
       "name": "Cabe",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Call",
       "series": "mistborn",
       "name": "Call",
+      "homeworld": "Scadrial",
       "occurrence": 6
+    },
+    {
+      "id": "mistborn_Callins",
+      "series": "mistborn",
+      "name": "Callins",
+      "homeworld": "Roshar",
+      "occurrence": 3
     },
     {
       "id": "mistborn_Camon",
       "series": "mistborn",
       "name": "Camon",
+      "homeworld": "Scadrial",
       "occurrence": 615
     },
     {
       "id": "mistborn_Carlee",
       "series": "mistborn",
       "name": "Carlee",
+      "homeworld": "Scadrial",
       "occurrence": 6
     },
     {
       "id": "mistborn_Cladent",
       "series": "mistborn",
       "name": "Cladent",
+      "homeworld": "Scadrial",
       "occurrence": 339
     },
     {
       "id": "mistborn_Cobble",
       "series": "mistborn",
       "name": "Cobble",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Cosahn",
       "series": "mistborn",
       "name": "Cosahn",
+      "homeworld": "Scadrial",
       "occurrence": 48
     },
     {
       "id": "mistborn_Demoux",
       "series": "mistborn",
       "name": "Demoux",
+      "homeworld": "Scadrial",
       "occurrence": 117
     },
     {
       "id": "mistborn_Devinshae",
       "series": "mistborn",
       "name": "Devinshae",
+      "homeworld": "Scadrial",
       "occurrence": 9
     },
     {
       "id": "mistborn_Dilisteni",
       "series": "mistborn",
       "name": "Dilisteni",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Disten",
       "series": "mistborn",
       "name": "Disten",
+      "homeworld": "Scadrial",
       "occurrence": 21
     },
     {
       "id": "mistborn_Dockson",
       "series": "mistborn",
       "name": "Dockson",
-      "occurrence": 1209
+      "homeworld": "Scadrial",
+      "occurrence": 1215
     },
     {
       "id": "mistborn_Edgard Ladrian",
       "series": "mistborn",
       "name": "Edgard Ladrian",
+      "homeworld": "Scadrial",
       "occurrence": 1017
+    },
+    {
+      "id": "mistborn_El",
+      "series": "mistborn",
+      "name": "El",
+      "homeworld": "Roshar",
+      "occurrence": 6
     },
     {
       "id": "mistborn_Fedik",
       "series": "mistborn",
       "name": "Fedik",
+      "homeworld": "Scadrial",
       "occurrence": 9
     },
     {
       "id": "mistborn_Felt",
       "series": "mistborn",
       "name": "Felt",
+      "homeworld": "Scadrial",
       "occurrence": 33
     },
     {
       "id": "mistborn_Flavine",
       "series": "mistborn",
       "name": "Flavine",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Flen",
       "series": "mistborn",
       "name": "Flen",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Gemmel",
       "series": "mistborn",
       "name": "Gemmel",
+      "homeworld": "Scadrial",
       "occurrence": 12
     },
     {
       "id": "mistborn_Goradel",
       "series": "mistborn",
       "name": "Goradel",
+      "homeworld": "Scadrial",
       "occurrence": 12
     },
     {
       "id": "mistborn_Hammond",
       "series": "mistborn",
       "name": "Hammond",
+      "homeworld": "Scadrial",
       "occurrence": 69
     },
     {
       "id": "mistborn_Harmon",
       "series": "mistborn",
       "name": "Harmon",
+      "homeworld": "Scadrial",
       "occurrence": 21
     },
     {
       "id": "mistborn_Heberen",
       "series": "mistborn",
       "name": "Heberen",
+      "homeworld": "Scadrial",
       "occurrence": 3
+    },
+    {
+      "id": "mistborn_Hoid",
+      "series": "mistborn",
+      "name": "Hoid",
+      "homeworld": "Yolen",
+      "occurrence": 84
     },
     {
       "id": "mistborn_Hrud",
       "series": "mistborn",
       "name": "Hrud",
+      "homeworld": "Scadrial",
       "occurrence": 12
+    },
+    {
+      "id": "mistborn_Izumakamo",
+      "series": "mistborn",
+      "name": "Izumakamo",
+      "homeworld": "Komashi",
+      "occurrence": 3
     },
     {
       "id": "mistborn_Jess",
       "series": "mistborn",
       "name": "Jess",
+      "homeworld": "Scadrial",
       "occurrence": 12
     },
     {
       "id": "mistborn_Kar",
       "series": "mistborn",
       "name": "Kar",
+      "homeworld": "Scadrial",
       "occurrence": 114
     },
     {
       "id": "mistborn_Kareien",
       "series": "mistborn",
       "name": "Kareien",
+      "homeworld": "Scadrial",
       "occurrence": 9
     },
     {
       "id": "mistborn_Kelsier",
       "series": "mistborn",
       "name": "Kelsier",
+      "homeworld": "Scadrial",
       "occurrence": 6999
+    },
+    {
+      "id": "mistborn_Kenton",
+      "series": "mistborn",
+      "name": "Kenton",
+      "homeworld": "Taldain",
+      "occurrence": 3
     },
     {
       "id": "mistborn_Kevoux",
       "series": "mistborn",
       "name": "Kevoux",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Kliss",
       "series": "mistborn",
       "name": "Kliss",
+      "homeworld": "Scadrial",
       "occurrence": 177
     },
     {
       "id": "mistborn_Kurdon",
       "series": "mistborn",
       "name": "Kurdon",
+      "homeworld": "Scadrial",
       "occurrence": 9
     },
     {
       "id": "mistborn_Kwaan",
       "series": "mistborn",
       "name": "Kwaan",
+      "homeworld": "Scadrial",
       "occurrence": 15
     },
     {
       "id": "mistborn_Laird",
       "series": "mistborn",
       "name": "Laird",
+      "homeworld": "Scadrial",
       "occurrence": 72
+    },
+    {
+      "id": "mistborn_Lead",
+      "series": "mistborn",
+      "name": "Lead",
+      "homeworld": "Lumar",
+      "occurrence": 3
+    },
+    {
+      "id": "mistborn_Maps",
+      "series": "mistborn",
+      "name": "Maps",
+      "homeworld": "Roshar",
+      "occurrence": 3
     },
     {
       "id": "mistborn_Mare",
       "series": "mistborn",
       "name": "Mare",
+      "homeworld": "Scadrial",
       "occurrence": 105
     },
     {
       "id": "mistborn_Marsh",
       "series": "mistborn",
       "name": "Marsh",
-      "occurrence": 726
+      "homeworld": "Scadrial",
+      "occurrence": 732
     },
     {
       "id": "mistborn_Mennis",
       "series": "mistborn",
       "name": "Mennis",
+      "homeworld": "Scadrial",
       "occurrence": 159
     },
     {
       "id": "mistborn_Milev",
       "series": "mistborn",
       "name": "Milev",
+      "homeworld": "Scadrial",
       "occurrence": 84
+    },
+    {
+      "id": "mistborn_Night",
+      "series": "mistborn",
+      "name": "Night",
+      "homeworld": "Roshar",
+      "occurrence": 3
     },
     {
       "id": "mistborn_OreSeur",
       "series": "mistborn",
       "name": "OreSeur",
-      "occurrence": 687
+      "homeworld": "Scadrial",
+      "occurrence": 12
     },
     {
       "id": "mistborn_Pull",
       "series": "mistborn",
       "name": "Pull",
+      "homeworld": "Scadrial",
       "occurrence": 90
     },
     {
       "id": "mistborn_Push",
       "series": "mistborn",
       "name": "Push",
+      "homeworld": "Scadrial",
       "occurrence": 147
     },
     {
       "id": "mistborn_Rashek",
       "series": "mistborn",
       "name": "Rashek",
+      "homeworld": "Scadrial",
       "occurrence": 63
     },
     {
       "id": "mistborn_Redalevin",
       "series": "mistborn",
       "name": "Redalevin",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Redd",
       "series": "mistborn",
       "name": "Redd",
+      "homeworld": "Scadrial",
       "occurrence": 6
     },
     {
       "id": "mistborn_Reen",
       "series": "mistborn",
       "name": "Reen",
+      "homeworld": "Scadrial",
       "occurrence": 237
     },
     {
       "id": "mistborn_Rene",
       "series": "mistborn",
       "name": "Rene",
+      "homeworld": "Scadrial",
       "occurrence": 12
     },
     {
       "id": "mistborn_Rian",
       "series": "mistborn",
       "name": "Rian",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Rudd",
       "series": "mistborn",
       "name": "Rudd",
+      "homeworld": "Scadrial",
       "occurrence": 12
     },
     {
       "id": "mistborn_Ruddy",
       "series": "mistborn",
       "name": "Ruddy",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Sazed",
       "series": "mistborn",
       "name": "Sazed",
+      "homeworld": "Scadrial",
       "occurrence": 1731
     },
     {
       "id": "mistborn_Sertes",
       "series": "mistborn",
       "name": "Sertes",
+      "homeworld": "Scadrial",
       "occurrence": 36
+    },
+    {
+      "id": "mistborn_Shalash",
+      "series": "mistborn",
+      "name": "Shalash",
+      "homeworld": "Ashyn",
+      "occurrence": 15
     },
     {
       "id": "mistborn_Shum",
       "series": "mistborn",
       "name": "Shum",
+      "homeworld": "Scadrial",
       "occurrence": 9
     },
     {
       "id": "mistborn_Sixteen",
       "series": "mistborn",
       "name": "Sixteen",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Spook",
       "series": "mistborn",
       "name": "Spook",
+      "homeworld": "Scadrial",
       "occurrence": 240
     },
     {
       "id": "mistborn_Staxles",
       "series": "mistborn",
       "name": "Staxles",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Tase",
       "series": "mistborn",
       "name": "Tase",
+      "homeworld": "Scadrial",
       "occurrence": 9
     },
     {
       "id": "mistborn_Tawnson",
       "series": "mistborn",
       "name": "Tawnson",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Tegas",
       "series": "mistborn",
       "name": "Tegas",
+      "homeworld": "Scadrial",
       "occurrence": 6
-    },
-    {
-      "id": "mistborn_Telsin Ladrian",
-      "series": "mistborn",
-      "name": "Telsin Ladrian",
-      "occurrence": 15
     },
     {
       "id": "mistborn_Temadre",
       "series": "mistborn",
       "name": "Temadre",
+      "homeworld": "Scadrial",
       "occurrence": 6
+    },
+    {
+      "id": "mistborn_Ten",
+      "series": "mistborn",
+      "name": "Ten",
+      "homeworld": "Roshar",
+      "occurrence": 18
     },
     {
       "id": "mistborn_TenSoon",
       "series": "mistborn",
       "name": "TenSoon",
-      "occurrence": 15
+      "homeworld": "Scadrial",
+      "occurrence": 3
     },
     {
       "id": "mistborn_Tepper",
       "series": "mistborn",
       "name": "Tepper",
+      "homeworld": "Scadrial",
       "occurrence": 78
     },
     {
       "id": "mistborn_Theron",
       "series": "mistborn",
       "name": "Theron",
+      "homeworld": "Scadrial",
       "occurrence": 87
     },
     {
       "id": "mistborn_Trap",
       "series": "mistborn",
       "name": "Trap",
+      "homeworld": "Scadrial",
       "occurrence": 9
     },
     {
       "id": "mistborn_Triss",
       "series": "mistborn",
       "name": "Triss",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Tyden",
       "series": "mistborn",
       "name": "Tyden",
+      "homeworld": "Scadrial",
       "occurrence": 24
     },
     {
       "id": "mistborn_Ulef",
       "series": "mistborn",
       "name": "Ulef",
+      "homeworld": "Scadrial",
       "occurrence": 114
     },
     {
       "id": "mistborn_Vin",
       "series": "mistborn",
       "name": "Vin",
+      "homeworld": "Scadrial",
       "occurrence": 7410
     },
     {
       "id": "mistborn_Walin",
       "series": "mistborn",
       "name": "Walin",
+      "homeworld": "Scadrial",
       "occurrence": 36
     },
     {
       "id": "mistborn_Wells",
       "series": "mistborn",
       "name": "Wells",
+      "homeworld": "Scadrial",
       "occurrence": 3
     },
     {
       "id": "mistborn_Yeden",
       "series": "mistborn",
       "name": "Yeden",
+      "homeworld": "Scadrial",
       "occurrence": 582
     },
     {
       "id": "mistborn_Yestal",
       "series": "mistborn",
       "name": "Yestal",
+      "homeworld": "Scadrial",
       "occurrence": 12
     },
     {
       "id": "warbreaker_Allmother",
       "series": "warbreaker",
       "name": "Allmother",
+      "homeworld": "Nalthis",
       "occurrence": 112
     },
     {
       "id": "warbreaker_Arsteel",
       "series": "warbreaker",
       "name": "Arsteel",
+      "homeworld": "Nalthis",
       "occurrence": 146
+    },
+    {
+      "id": "warbreaker_Ashe",
+      "series": "warbreaker",
+      "name": "Ashe",
+      "homeworld": "Sel",
+      "occurrence": 64
     },
     {
       "id": "warbreaker_Ashu",
       "series": "warbreaker",
       "name": "Ashu",
+      "homeworld": "Nalthis",
       "occurrence": 12
     },
     {
       "id": "warbreaker_Bebid",
       "series": "warbreaker",
       "name": "Bebid",
+      "homeworld": "Nalthis",
       "occurrence": 36
+    },
+    {
+      "id": "warbreaker_Blue",
+      "series": "warbreaker",
+      "name": "Blue",
+      "homeworld": "Scadrial",
+      "occurrence": 2
     },
     {
       "id": "warbreaker_Blushweaver",
       "series": "warbreaker",
       "name": "Blushweaver",
+      "homeworld": "Nalthis",
       "occurrence": 558
     },
     {
       "id": "warbreaker_Brighthue",
       "series": "warbreaker",
       "name": "Brighthue",
+      "homeworld": "Nalthis",
       "occurrence": 2
     },
     {
       "id": "warbreaker_Brightvison",
       "series": "warbreaker",
       "name": "Brightvison",
+      "homeworld": "Nalthis",
       "occurrence": 2
     },
     {
       "id": "warbreaker_Cads",
       "series": "warbreaker",
       "name": "Cads",
+      "homeworld": "Nalthis",
       "occurrence": 8
     },
     {
       "id": "warbreaker_Calmseer",
       "series": "warbreaker",
       "name": "Calmseer",
+      "homeworld": "Nalthis",
       "occurrence": 20
+    },
+    {
+      "id": "warbreaker_Creer",
+      "series": "warbreaker",
+      "name": "Creer",
+      "homeworld": "Roshar",
+      "occurrence": 2
     },
     {
       "id": "warbreaker_Dedelin",
       "series": "warbreaker",
       "name": "Dedelin",
+      "homeworld": "Nalthis",
       "occurrence": 68
     },
     {
       "id": "warbreaker_Denth",
       "series": "warbreaker",
       "name": "Denth",
+      "homeworld": "Nalthis",
       "occurrence": 1284
+    },
+    {
+      "id": "warbreaker_Dereth",
+      "series": "warbreaker",
+      "name": "Dereth",
+      "homeworld": "Sel",
+      "occurrence": 8
+    },
+    {
+      "id": "warbreaker_Dilaf",
+      "series": "warbreaker",
+      "name": "Dilaf",
+      "homeworld": "Sel",
+      "occurrence": 24
+    },
+    {
+      "id": "warbreaker_Dio",
+      "series": "warbreaker",
+      "name": "Dio",
+      "homeworld": "Sel",
+      "occurrence": 2
+    },
+    {
+      "id": "warbreaker_Edgli",
+      "series": "warbreaker",
+      "name": "Edgli",
+      "homeworld": "Yolen",
+      "occurrence": 14
+    },
+    {
+      "id": "warbreaker_Elao",
+      "series": "warbreaker",
+      "name": "Elao",
+      "homeworld": "Sel",
+      "occurrence": 4
+    },
+    {
+      "id": "warbreaker_Eshen",
+      "series": "warbreaker",
+      "name": "Eshen",
+      "homeworld": "Sel",
+      "occurrence": 24
+    },
+    {
+      "id": "warbreaker_Eventeo",
+      "series": "warbreaker",
+      "name": "Eventeo",
+      "homeworld": "Sel",
+      "occurrence": 6
     },
     {
       "id": "warbreaker_Fafen",
       "series": "warbreaker",
       "name": "Fafen",
+      "homeworld": "Nalthis",
       "occurrence": 48
+    },
+    {
+      "id": "warbreaker_Faith",
+      "series": "warbreaker",
+      "name": "Faith",
+      "homeworld": "Canticle",
+      "occurrence": 2
+    },
+    {
+      "id": "warbreaker_Fjon",
+      "series": "warbreaker",
+      "name": "Fjon",
+      "homeworld": "Sel",
+      "occurrence": 70
     },
     {
       "id": "warbreaker_Fob",
       "series": "warbreaker",
       "name": "Fob",
+      "homeworld": "Nalthis",
       "occurrence": 36
     },
     {
       "id": "warbreaker_Fran",
       "series": "warbreaker",
       "name": "Fran",
+      "homeworld": "Nalthis",
       "occurrence": 2
     },
     {
       "id": "warbreaker_Gagaril",
       "series": "warbreaker",
       "name": "Gagaril",
+      "homeworld": "Nalthis",
       "occurrence": 2
+    },
+    {
+      "id": "warbreaker_Galladon",
+      "series": "warbreaker",
+      "name": "Galladon",
+      "homeworld": "Sel",
+      "occurrence": 70
     },
     {
       "id": "warbreaker_Gendren",
       "series": "warbreaker",
       "name": "Gendren",
+      "homeworld": "Nalthis",
       "occurrence": 2
     },
     {
       "id": "warbreaker_Giftbeacon",
       "series": "warbreaker",
       "name": "Giftbeacon",
+      "homeworld": "Nalthis",
       "occurrence": 2
     },
     {
       "id": "warbreaker_Grable",
       "series": "warbreaker",
       "name": "Grable",
+      "homeworld": "Nalthis",
       "occurrence": 46
     },
     {
       "id": "warbreaker_Halan",
       "series": "warbreaker",
       "name": "Halan",
+      "homeworld": "Nalthis",
       "occurrence": 2
     },
     {
       "id": "warbreaker_Havarseth",
       "series": "warbreaker",
       "name": "Havarseth",
+      "homeworld": "Nalthis",
       "occurrence": 366
+    },
+    {
+      "id": "warbreaker_Hoid",
+      "series": "warbreaker",
+      "name": "Hoid",
+      "homeworld": "Yolen",
+      "occurrence": 62
     },
     {
       "id": "warbreaker_Hopefinder",
       "series": "warbreaker",
       "name": "Hopefinder",
+      "homeworld": "Nalthis",
       "occurrence": 78
+    },
+    {
+      "id": "warbreaker_Hrathen",
+      "series": "warbreaker",
+      "name": "Hrathen",
+      "homeworld": "Sel",
+      "occurrence": 132
+    },
+    {
+      "id": "warbreaker_Human",
+      "series": "warbreaker",
+      "name": "Human",
+      "homeworld": "Scadrial",
+      "occurrence": 4
+    },
+    {
+      "id": "warbreaker_Iadon",
+      "series": "warbreaker",
+      "name": "Iadon",
+      "homeworld": "Sel",
+      "occurrence": 44
+    },
+    {
+      "id": "warbreaker_Ien",
+      "series": "warbreaker",
+      "name": "Ien",
+      "homeworld": "Sel",
+      "occurrence": 4
     },
     {
       "id": "warbreaker_Inhanna",
       "series": "warbreaker",
       "name": "Inhanna",
+      "homeworld": "Nalthis",
       "occurrence": 2
     },
     {
       "id": "warbreaker_Jewels",
       "series": "warbreaker",
       "name": "Jewels",
+      "homeworld": "Nalthis",
       "occurrence": 244
     },
     {
       "id": "warbreaker_Jlan",
       "series": "warbreaker",
       "name": "Jlan",
+      "homeworld": "Nalthis",
       "occurrence": 2
+    },
+    {
+      "id": "warbreaker_Keseg",
+      "series": "warbreaker",
+      "name": "Keseg",
+      "homeworld": "Sel",
+      "occurrence": 2
+    },
+    {
+      "id": "warbreaker_Ketol",
+      "series": "warbreaker",
+      "name": "Ketol",
+      "homeworld": "Sel",
+      "occurrence": 14
     },
     {
       "id": "warbreaker_Kindwinds",
       "series": "warbreaker",
       "name": "Kindwinds",
+      "homeworld": "Nalthis",
       "occurrence": 2
     },
     {
       "id": "warbreaker_Lemex",
       "series": "warbreaker",
       "name": "Lemex",
+      "homeworld": "Nalthis",
       "occurrence": 190
     },
     {
       "id": "warbreaker_Lifeblesser",
       "series": "warbreaker",
       "name": "Lifeblesser",
+      "homeworld": "Nalthis",
       "occurrence": 28
+    },
+    {
+      "id": "warbreaker_Lift",
+      "series": "warbreaker",
+      "name": "Lift",
+      "homeworld": "Roshar",
+      "occurrence": 2
     },
     {
       "id": "warbreaker_Lightsong",
       "series": "warbreaker",
       "name": "Lightsong",
+      "homeworld": "Nalthis",
       "occurrence": 1918
     },
     {
       "id": "warbreaker_Llarimar",
       "series": "warbreaker",
       "name": "Llarimar",
+      "homeworld": "Nalthis",
       "occurrence": 662
     },
     {
       "id": "warbreaker_Mab",
       "series": "warbreaker",
       "name": "Mab",
+      "homeworld": "Nalthis",
       "occurrence": 42
+    },
+    {
+      "id": "warbreaker_Marsh",
+      "series": "warbreaker",
+      "name": "Marsh",
+      "homeworld": "Scadrial",
+      "occurrence": 2
     },
     {
       "id": "warbreaker_Mercystar",
       "series": "warbreaker",
       "name": "Mercystar",
+      "homeworld": "Nalthis",
       "occurrence": 116
     },
     {
       "id": "warbreaker_Mirthgiver",
       "series": "warbreaker",
       "name": "Mirthgiver",
+      "homeworld": "Nalthis",
       "occurrence": 2
     },
     {
       "id": "warbreaker_Misel",
       "series": "warbreaker",
       "name": "Misel",
+      "homeworld": "Nalthis",
       "occurrence": 2
     },
     {
       "id": "warbreaker_Nanrovah",
       "series": "warbreaker",
       "name": "Nanrovah",
+      "homeworld": "Nalthis",
       "occurrence": 36
+    },
+    {
+      "id": "warbreaker_Naolen",
+      "series": "warbreaker",
+      "name": "Naolen",
+      "homeworld": "Sel",
+      "occurrence": 2
+    },
+    {
+      "id": "warbreaker_Night",
+      "series": "warbreaker",
+      "name": "Night",
+      "homeworld": "Roshar",
+      "occurrence": 4
     },
     {
       "id": "warbreaker_Nightblood",
       "series": "warbreaker",
       "name": "Nightblood",
+      "homeworld": "Nalthis",
       "occurrence": 314
     },
     {
       "id": "warbreaker_Parlin",
       "series": "warbreaker",
       "name": "Parlin",
+      "homeworld": "Nalthis",
       "occurrence": 234
     },
     {
       "id": "warbreaker_Paxen",
       "series": "warbreaker",
       "name": "Paxen",
+      "homeworld": "Nalthis",
       "occurrence": 10
     },
     {
       "id": "warbreaker_Peaceyearning",
       "series": "warbreaker",
       "name": "Peaceyearning",
+      "homeworld": "Nalthis",
       "occurrence": 2
+    },
+    {
+      "id": "warbreaker_Raoden",
+      "series": "warbreaker",
+      "name": "Raoden",
+      "homeworld": "Sel",
+      "occurrence": 222
     },
     {
       "id": "warbreaker_Rariv",
       "series": "warbreaker",
       "name": "Rariv",
+      "homeworld": "Nalthis",
       "occurrence": 2
     },
     {
       "id": "warbreaker_Ridger",
       "series": "warbreaker",
       "name": "Ridger",
+      "homeworld": "Nalthis",
       "occurrence": 10
+    },
+    {
+      "id": "warbreaker_Sarene",
+      "series": "warbreaker",
+      "name": "Sarene",
+      "homeworld": "Sel",
+      "occurrence": 154
     },
     {
       "id": "warbreaker_Shashara",
       "series": "warbreaker",
       "name": "Shashara",
+      "homeworld": "Nalthis",
       "occurrence": 22
     },
     {
       "id": "warbreaker_Sisirinah",
       "series": "warbreaker",
       "name": "Sisirinah",
+      "homeworld": "Nalthis",
       "occurrence": 1420
+    },
+    {
+      "id": "warbreaker_Sixteen",
+      "series": "warbreaker",
+      "name": "Sixteen",
+      "homeworld": "Scadrial",
+      "occurrence": 2
     },
     {
       "id": "warbreaker_Stillmark",
       "series": "warbreaker",
       "name": "Stillmark",
+      "homeworld": "Nalthis",
       "occurrence": 14
+    },
+    {
+      "id": "warbreaker_Stone",
+      "series": "warbreaker",
+      "name": "Stone",
+      "homeworld": "Roshar",
+      "occurrence": 4
     },
     {
       "id": "warbreaker_Susebron",
       "series": "warbreaker",
       "name": "Susebron",
+      "homeworld": "Nalthis",
       "occurrence": 346
     },
     {
       "id": "warbreaker_Taff",
       "series": "warbreaker",
       "name": "Taff",
+      "homeworld": "Nalthis",
       "occurrence": 8
     },
     {
       "id": "warbreaker_Tatara",
       "series": "warbreaker",
       "name": "Tatara",
+      "homeworld": "Nalthis",
       "occurrence": 2
+    },
+    {
+      "id": "warbreaker_Ten",
+      "series": "warbreaker",
+      "name": "Ten",
+      "homeworld": "Roshar",
+      "occurrence": 6
     },
     {
       "id": "warbreaker_Thame",
       "series": "warbreaker",
       "name": "Thame",
+      "homeworld": "Nalthis",
       "occurrence": 70
+    },
+    {
+      "id": "warbreaker_Took",
+      "series": "warbreaker",
+      "name": "Took",
+      "homeworld": "Roshar",
+      "occurrence": 6
     },
     {
       "id": "warbreaker_Treledees",
       "series": "warbreaker",
       "name": "Treledees",
+      "homeworld": "Nalthis",
       "occurrence": 198
     },
     {
       "id": "warbreaker_Truthcall",
       "series": "warbreaker",
       "name": "Truthcall",
+      "homeworld": "Nalthis",
       "occurrence": 30
     },
     {
       "id": "warbreaker_Tuft",
       "series": "warbreaker",
       "name": "Tuft",
+      "homeworld": "Nalthis",
       "occurrence": 8
     },
     {
       "id": "warbreaker_Vahr",
       "series": "warbreaker",
       "name": "Vahr",
+      "homeworld": "Nalthis",
       "occurrence": 104
     },
     {
       "id": "warbreaker_Vasher",
       "series": "warbreaker",
       "name": "Vasher",
-      "occurrence": 1284
+      "homeworld": "Nalthis",
+      "occurrence": 1290
     },
     {
       "id": "warbreaker_Vivenna",
       "series": "warbreaker",
       "name": "Vivenna",
+      "homeworld": "Nalthis",
       "occurrence": 1784
     },
     {
       "id": "warbreaker_Vo",
       "series": "warbreaker",
       "name": "Vo",
+      "homeworld": "Nalthis",
+      "occurrence": 4
+    },
+    {
+      "id": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "name": "Waxillium Ladrian",
+      "homeworld": "Scadrial",
       "occurrence": 4
     },
     {
       "id": "warbreaker_Weatherlove",
       "series": "warbreaker",
       "name": "Weatherlove",
+      "homeworld": "Nalthis",
       "occurrence": 32
+    },
+    {
+      "id": "warbreaker_Wind",
+      "series": "warbreaker",
+      "name": "Wind",
+      "homeworld": "Roshar",
+      "occurrence": 4
     },
     {
       "id": "warbreaker_Yarda",
       "series": "warbreaker",
       "name": "Yarda",
+      "homeworld": "Nalthis",
       "occurrence": 50
     },
     {
       "id": "warbreaker_Yesteel",
       "series": "warbreaker",
       "name": "Yesteel",
+      "homeworld": "Nalthis",
       "occurrence": 8
     }
   ],
@@ -1321,6 +1935,12 @@
       "target": "elantris_Galladon",
       "series": "elantris",
       "weight": 4
+    },
+    {
+      "source": "elantris_Adien",
+      "target": "elantris_Hoid",
+      "series": "elantris",
+      "weight": 3
     },
     {
       "source": "elantris_Adien",
@@ -1456,6 +2076,12 @@
     },
     {
       "source": "elantris_Adien",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Adien",
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 2
@@ -1469,6 +2095,12 @@
     {
       "source": "elantris_Ahan",
       "target": "elantris_Atara",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Ahan",
+      "target": "elantris_Call",
       "series": "elantris",
       "weight": 1
     },
@@ -1567,6 +2199,12 @@
       "target": "elantris_Graeo",
       "series": "elantris",
       "weight": 1
+    },
+    {
+      "source": "elantris_Ahan",
+      "target": "elantris_Hoid",
+      "series": "elantris",
+      "weight": 2
     },
     {
       "source": "elantris_Ahan",
@@ -1678,6 +2316,12 @@
     },
     {
       "source": "elantris_Ahan",
+      "target": "elantris_Push",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Ahan",
       "target": "elantris_Raoden",
       "series": "elantris",
       "weight": 12
@@ -1741,6 +2385,12 @@
       "target": "elantris_Telrii",
       "series": "elantris",
       "weight": 10
+    },
+    {
+      "source": "elantris_Ahan",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 2
     },
     {
       "source": "elantris_Ahan",
@@ -1831,6 +2481,12 @@
       "target": "elantris_Atara",
       "series": "elantris",
       "weight": 2
+    },
+    {
+      "source": "elantris_Ashe",
+      "target": "elantris_Call",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Ashe",
@@ -1927,6 +2583,12 @@
       "target": "elantris_Graeo",
       "series": "elantris",
       "weight": 1
+    },
+    {
+      "source": "elantris_Ashe",
+      "target": "elantris_Hoid",
+      "series": "elantris",
+      "weight": 3
     },
     {
       "source": "elantris_Ashe",
@@ -2116,6 +2778,12 @@
     },
     {
       "source": "elantris_Ashe",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 3
+    },
+    {
+      "source": "elantris_Ashe",
       "target": "elantris_Teorn",
       "series": "elantris",
       "weight": 1
@@ -2125,6 +2793,12 @@
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 8
+    },
+    {
+      "source": "elantris_Ashe",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Ashe",
@@ -2265,6 +2939,12 @@
       "weight": 1
     },
     {
+      "source": "elantris_Ashgress",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
       "source": "elantris_Atara",
       "target": "elantris_Daora",
       "series": "elantris",
@@ -2422,7 +3102,241 @@
     },
     {
       "source": "elantris_Atara",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Atara",
       "target": "elantris_Waren",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Dereth",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Edan",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Eondel",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Eshen",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Eventeo",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Hrathen",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Iadon",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Kiin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Korath",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Lukel",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Meala",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Omin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Raoden",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Roial",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Sarene",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Shuden",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Call",
+      "target": "elantris_Telrii",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Conrad",
+      "target": "elantris_Creer",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Conrad",
+      "target": "elantris_Demoux",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Conrad",
+      "target": "elantris_Dereth",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Conrad",
+      "target": "elantris_Hrathen",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Conrad",
+      "target": "elantris_Izumakamo",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Conrad",
+      "target": "elantris_Kaladin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Conrad",
+      "target": "elantris_Raoden",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Conrad",
+      "target": "elantris_Sarene",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Conrad",
+      "target": "elantris_Vin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Conrad",
+      "target": "elantris_Wayne",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Conrad",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Creer",
+      "target": "elantris_Demoux",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Creer",
+      "target": "elantris_Dereth",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Creer",
+      "target": "elantris_Hrathen",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Creer",
+      "target": "elantris_Izumakamo",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Creer",
+      "target": "elantris_Kaladin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Creer",
+      "target": "elantris_Raoden",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Creer",
+      "target": "elantris_Sarene",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Creer",
+      "target": "elantris_Vin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Creer",
+      "target": "elantris_Wayne",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Creer",
+      "target": "elantris_Wells",
       "series": "elantris",
       "weight": 1
     },
@@ -2435,6 +3349,12 @@
     {
       "source": "elantris_Dahad",
       "target": "elantris_Galladon",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Dahad",
+      "target": "elantris_Hoid",
       "series": "elantris",
       "weight": 1
     },
@@ -2578,6 +3498,12 @@
     },
     {
       "source": "elantris_Daora",
+      "target": "elantris_Hoid",
+      "series": "elantris",
+      "weight": 3
+    },
+    {
+      "source": "elantris_Daora",
       "target": "elantris_Hrathen",
       "series": "elantris",
       "weight": 10
@@ -2746,6 +3672,12 @@
     },
     {
       "source": "elantris_Daora",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Daora",
       "target": "elantris_Waren",
       "series": "elantris",
       "weight": 1
@@ -2783,6 +3715,12 @@
     {
       "source": "elantris_Daorn",
       "target": "elantris_Galladon",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Daorn",
+      "target": "elantris_Hoid",
       "series": "elantris",
       "weight": 2
     },
@@ -2914,6 +3852,12 @@
     },
     {
       "source": "elantris_Daorn",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Daorn",
       "target": "elantris_Teorn",
       "series": "elantris",
       "weight": 1
@@ -2923,6 +3867,12 @@
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 2
+    },
+    {
+      "source": "elantris_Daorn",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Dashe",
@@ -2935,6 +3885,12 @@
       "target": "elantris_Galladon",
       "series": "elantris",
       "weight": 5
+    },
+    {
+      "source": "elantris_Dashe",
+      "target": "elantris_Hoid",
+      "series": "elantris",
+      "weight": 2
     },
     {
       "source": "elantris_Dashe",
@@ -3011,6 +3967,60 @@
     {
       "source": "elantris_Dashe",
       "target": "elantris_Tenrao",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Demoux",
+      "target": "elantris_Dereth",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Demoux",
+      "target": "elantris_Hrathen",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Demoux",
+      "target": "elantris_Izumakamo",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Demoux",
+      "target": "elantris_Kaladin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Demoux",
+      "target": "elantris_Raoden",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Demoux",
+      "target": "elantris_Sarene",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Demoux",
+      "target": "elantris_Vin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Demoux",
+      "target": "elantris_Wayne",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Demoux",
+      "target": "elantris_Wells",
       "series": "elantris",
       "weight": 1
     },
@@ -3106,6 +4116,12 @@
     },
     {
       "source": "elantris_Dereth",
+      "target": "elantris_Hoid",
+      "series": "elantris",
+      "weight": 3
+    },
+    {
+      "source": "elantris_Dereth",
       "target": "elantris_Horen",
       "series": "elantris",
       "weight": 1
@@ -3136,6 +4152,12 @@
     },
     {
       "source": "elantris_Dereth",
+      "target": "elantris_Izumakamo",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Dereth",
       "target": "elantris_Jalla",
       "series": "elantris",
       "weight": 3
@@ -3151,6 +4173,12 @@
       "target": "elantris_Kaise",
       "series": "elantris",
       "weight": 5
+    },
+    {
+      "source": "elantris_Dereth",
+      "target": "elantris_Kaladin",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Dereth",
@@ -3187,6 +4215,12 @@
       "target": "elantris_Mai",
       "series": "elantris",
       "weight": 2
+    },
+    {
+      "source": "elantris_Dereth",
+      "target": "elantris_Maps",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Dereth",
@@ -3280,7 +4314,19 @@
     },
     {
       "source": "elantris_Dereth",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 3
+    },
+    {
+      "source": "elantris_Dereth",
       "target": "elantris_Teorn",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Dereth",
+      "target": "elantris_Took",
       "series": "elantris",
       "weight": 1
     },
@@ -3292,9 +4338,33 @@
     },
     {
       "source": "elantris_Dereth",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Dereth",
+      "target": "elantris_Vin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Dereth",
       "target": "elantris_Waren",
       "series": "elantris",
       "weight": 3
+    },
+    {
+      "source": "elantris_Dereth",
+      "target": "elantris_Wayne",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Dereth",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 2
     },
     {
       "source": "elantris_Dilaf",
@@ -3376,6 +4446,12 @@
     },
     {
       "source": "elantris_Dilaf",
+      "target": "elantris_Hoid",
+      "series": "elantris",
+      "weight": 4
+    },
+    {
+      "source": "elantris_Dilaf",
       "target": "elantris_Hrathen",
       "series": "elantris",
       "weight": 23
@@ -3439,6 +4515,12 @@
       "target": "elantris_Korath",
       "series": "elantris",
       "weight": 8
+    },
+    {
+      "source": "elantris_Dilaf",
+      "target": "elantris_Lift",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Dilaf",
@@ -3544,9 +4626,21 @@
     },
     {
       "source": "elantris_Dilaf",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Dilaf",
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 4
+    },
+    {
+      "source": "elantris_Dilaf",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Dilaf",
@@ -3802,6 +4896,12 @@
     },
     {
       "source": "elantris_Dion",
+      "target": "elantris_Hoid",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Dion",
       "target": "elantris_Kahar",
       "series": "elantris",
       "weight": 1
@@ -4090,6 +5190,12 @@
     },
     {
       "source": "elantris_Edan",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Edan",
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 2
@@ -4115,6 +5221,12 @@
     {
       "source": "elantris_Elao",
       "target": "elantris_Raoden",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Elao",
+      "target": "elantris_Ten",
       "series": "elantris",
       "weight": 1
     },
@@ -4360,6 +5472,12 @@
     },
     {
       "source": "elantris_Eondel",
+      "target": "elantris_Hoid",
+      "series": "elantris",
+      "weight": 4
+    },
+    {
+      "source": "elantris_Eondel",
       "target": "elantris_Hrathen",
       "series": "elantris",
       "weight": 16
@@ -4468,6 +5586,12 @@
     },
     {
       "source": "elantris_Eondel",
+      "target": "elantris_Push",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Eondel",
       "target": "elantris_Raoden",
       "series": "elantris",
       "weight": 22
@@ -4540,6 +5664,12 @@
     },
     {
       "source": "elantris_Eondel",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 6
+    },
+    {
+      "source": "elantris_Eondel",
       "target": "elantris_Teorn",
       "series": "elantris",
       "weight": 1
@@ -4552,6 +5682,12 @@
     },
     {
       "source": "elantris_Eondel",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Eondel",
       "target": "elantris_Waren",
       "series": "elantris",
       "weight": 1
@@ -4559,6 +5695,12 @@
     {
       "source": "elantris_Eonic",
       "target": "elantris_Galladon",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Eonic",
+      "target": "elantris_Hoid",
       "series": "elantris",
       "weight": 1
     },
@@ -4612,6 +5754,12 @@
     },
     {
       "source": "elantris_Eonic",
+      "target": "elantris_Push",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Eonic",
       "target": "elantris_Raoden",
       "series": "elantris",
       "weight": 1
@@ -4649,6 +5797,12 @@
     {
       "source": "elantris_Eonic",
       "target": "elantris_Telrii",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Eonic",
+      "target": "elantris_Ten",
       "series": "elantris",
       "weight": 1
     },
@@ -4810,6 +5964,12 @@
     },
     {
       "source": "elantris_Eshen",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 3
+    },
+    {
+      "source": "elantris_Eshen",
       "target": "elantris_Teorn",
       "series": "elantris",
       "weight": 1
@@ -4819,6 +5979,12 @@
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 4
+    },
+    {
+      "source": "elantris_Eshen",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Eshen",
@@ -4841,6 +6007,12 @@
     {
       "source": "elantris_Eton",
       "target": "elantris_Gatrii",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Eton",
+      "target": "elantris_Hoid",
       "series": "elantris",
       "weight": 1
     },
@@ -4877,6 +6049,12 @@
     {
       "source": "elantris_Eton",
       "target": "elantris_Lukel",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Eton",
+      "target": "elantris_Maps",
       "series": "elantris",
       "weight": 1
     },
@@ -4930,7 +6108,19 @@
     },
     {
       "source": "elantris_Eton",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Eton",
       "target": "elantris_Torena",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Eton",
+      "target": "elantris_Wells",
       "series": "elantris",
       "weight": 1
     },
@@ -4951,6 +6141,12 @@
       "target": "elantris_Graeo",
       "series": "elantris",
       "weight": 1
+    },
+    {
+      "source": "elantris_Eventeo",
+      "target": "elantris_Hoid",
+      "series": "elantris",
+      "weight": 5
     },
     {
       "source": "elantris_Eventeo",
@@ -5140,6 +6336,12 @@
     },
     {
       "source": "elantris_Eventeo",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Eventeo",
       "target": "elantris_Teorn",
       "series": "elantris",
       "weight": 1
@@ -5151,8 +6353,20 @@
       "weight": 6
     },
     {
+      "source": "elantris_Eventeo",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
       "source": "elantris_Fjon",
       "target": "elantris_Galladon",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Fjon",
+      "target": "elantris_Hoid",
       "series": "elantris",
       "weight": 1
     },
@@ -5218,6 +6432,12 @@
     },
     {
       "source": "elantris_Fjon",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Fjon",
       "target": "elantris_Waren",
       "series": "elantris",
       "weight": 1
@@ -5257,6 +6477,12 @@
       "target": "elantris_Telrii",
       "series": "elantris",
       "weight": 2
+    },
+    {
+      "source": "elantris_Galladon",
+      "target": "elantris_Hoid",
+      "series": "elantris",
+      "weight": 12
     },
     {
       "source": "elantris_Galladon",
@@ -5374,6 +6600,12 @@
     },
     {
       "source": "elantris_Galladon",
+      "target": "elantris_Push",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Galladon",
       "target": "elantris_Raoden",
       "series": "elantris",
       "weight": 30
@@ -5434,6 +6666,12 @@
     },
     {
       "source": "elantris_Galladon",
+      "target": "elantris_Stone",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Galladon",
       "target": "elantris_Taan",
       "series": "elantris",
       "weight": 13
@@ -5446,7 +6684,19 @@
     },
     {
       "source": "elantris_Galladon",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 5
+    },
+    {
+      "source": "elantris_Galladon",
       "target": "elantris_Tenrao",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Galladon",
+      "target": "elantris_Took",
       "series": "elantris",
       "weight": 1
     },
@@ -5457,8 +6707,26 @@
       "weight": 5
     },
     {
+      "source": "elantris_Galladon",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Gatrii",
+      "target": "elantris_Hoid",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
       "source": "elantris_Gatrii",
       "target": "elantris_Hrathen",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Gatrii",
+      "target": "elantris_Maps",
       "series": "elantris",
       "weight": 1
     },
@@ -5477,6 +6745,18 @@
     {
       "source": "elantris_Gatrii",
       "target": "elantris_Telrii",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Gatrii",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Gatrii",
+      "target": "elantris_Wells",
       "series": "elantris",
       "weight": 1
     },
@@ -5583,6 +6863,198 @@
       "weight": 1
     },
     {
+      "source": "elantris_Hoid",
+      "target": "elantris_Hrathen",
+      "series": "elantris",
+      "weight": 6
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Iadon",
+      "series": "elantris",
+      "weight": 6
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Ien",
+      "series": "elantris",
+      "weight": 6
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Jalla",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Kahar",
+      "series": "elantris",
+      "weight": 6
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Kaise",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Karata",
+      "series": "elantris",
+      "weight": 10
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Keseg",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Kiin",
+      "series": "elantris",
+      "weight": 5
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Korath",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Loren",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Lukel",
+      "series": "elantris",
+      "weight": 7
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Maare",
+      "series": "elantris",
+      "weight": 3
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Mai",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Maps",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Mareshe",
+      "series": "elantris",
+      "weight": 7
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Opais",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Push",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Raoden",
+      "series": "elantris",
+      "weight": 14
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Riil",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Roial",
+      "series": "elantris",
+      "weight": 4
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Saolin",
+      "series": "elantris",
+      "weight": 7
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Sarene",
+      "series": "elantris",
+      "weight": 9
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Seala",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Shaor",
+      "series": "elantris",
+      "weight": 8
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Shuden",
+      "series": "elantris",
+      "weight": 4
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Stone",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Taan",
+      "series": "elantris",
+      "weight": 8
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Telrii",
+      "series": "elantris",
+      "weight": 5
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 4
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Torena",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Hoid",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
       "source": "elantris_Horen",
       "target": "elantris_Ien",
       "series": "elantris",
@@ -5644,6 +7116,12 @@
     },
     {
       "source": "elantris_Hrathen",
+      "target": "elantris_Izumakamo",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Hrathen",
       "target": "elantris_Jalla",
       "series": "elantris",
       "weight": 5
@@ -5659,6 +7137,12 @@
       "target": "elantris_Kaise",
       "series": "elantris",
       "weight": 6
+    },
+    {
+      "source": "elantris_Hrathen",
+      "target": "elantris_Kaladin",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Hrathen",
@@ -5686,6 +7170,12 @@
     },
     {
       "source": "elantris_Hrathen",
+      "target": "elantris_Lift",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Hrathen",
       "target": "elantris_Lukel",
       "series": "elantris",
       "weight": 18
@@ -5701,6 +7191,12 @@
       "target": "elantris_Mai",
       "series": "elantris",
       "weight": 2
+    },
+    {
+      "source": "elantris_Hrathen",
+      "target": "elantris_Maps",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Hrathen",
@@ -5806,6 +7302,12 @@
     },
     {
       "source": "elantris_Hrathen",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 5
+    },
+    {
+      "source": "elantris_Hrathen",
       "target": "elantris_Teorn",
       "series": "elantris",
       "weight": 1
@@ -5818,9 +7320,33 @@
     },
     {
       "source": "elantris_Hrathen",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Hrathen",
+      "target": "elantris_Vin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Hrathen",
       "target": "elantris_Waren",
       "series": "elantris",
       "weight": 3
+    },
+    {
+      "source": "elantris_Hrathen",
+      "target": "elantris_Wayne",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Hrathen",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 2
     },
     {
       "source": "elantris_Iadon",
@@ -5881,6 +7407,12 @@
       "target": "elantris_Korath",
       "series": "elantris",
       "weight": 15
+    },
+    {
+      "source": "elantris_Iadon",
+      "target": "elantris_Lift",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Iadon",
@@ -5945,6 +7477,12 @@
     {
       "source": "elantris_Iadon",
       "target": "elantris_Opais",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Iadon",
+      "target": "elantris_Push",
       "series": "elantris",
       "weight": 1
     },
@@ -6022,6 +7560,12 @@
     },
     {
       "source": "elantris_Iadon",
+      "target": "elantris_Stone",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Iadon",
       "target": "elantris_Taan",
       "series": "elantris",
       "weight": 8
@@ -6034,7 +7578,19 @@
     },
     {
       "source": "elantris_Iadon",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 9
+    },
+    {
+      "source": "elantris_Iadon",
       "target": "elantris_Teorn",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Iadon",
+      "target": "elantris_Took",
       "series": "elantris",
       "weight": 1
     },
@@ -6046,9 +7602,21 @@
     },
     {
       "source": "elantris_Iadon",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Iadon",
       "target": "elantris_Waren",
       "series": "elantris",
       "weight": 2
+    },
+    {
+      "source": "elantris_Iadon",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Idan",
@@ -6136,6 +7704,12 @@
     },
     {
       "source": "elantris_Ien",
+      "target": "elantris_Push",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Ien",
       "target": "elantris_Raoden",
       "series": "elantris",
       "weight": 12
@@ -6184,6 +7758,12 @@
     },
     {
       "source": "elantris_Ien",
+      "target": "elantris_Stone",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Ien",
       "target": "elantris_Taan",
       "series": "elantris",
       "weight": 7
@@ -6196,9 +7776,57 @@
     },
     {
       "source": "elantris_Ien",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 4
+    },
+    {
+      "source": "elantris_Ien",
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 3
+    },
+    {
+      "source": "elantris_Ien",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Izumakamo",
+      "target": "elantris_Kaladin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Izumakamo",
+      "target": "elantris_Raoden",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Izumakamo",
+      "target": "elantris_Sarene",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Izumakamo",
+      "target": "elantris_Vin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Izumakamo",
+      "target": "elantris_Wayne",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Izumakamo",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Jalla",
@@ -6316,6 +7944,12 @@
     },
     {
       "source": "elantris_Jalla",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Jalla",
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 1
@@ -6371,6 +8005,12 @@
     {
       "source": "elantris_Kahar",
       "target": "elantris_Opais",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Kahar",
+      "target": "elantris_Push",
       "series": "elantris",
       "weight": 1
     },
@@ -6433,6 +8073,12 @@
       "target": "elantris_Telrii",
       "series": "elantris",
       "weight": 3
+    },
+    {
+      "source": "elantris_Kahar",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Kahar",
@@ -6538,6 +8184,12 @@
     },
     {
       "source": "elantris_Kaise",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 3
+    },
+    {
+      "source": "elantris_Kaise",
       "target": "elantris_Teorn",
       "series": "elantris",
       "weight": 1
@@ -6547,6 +8199,42 @@
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 3
+    },
+    {
+      "source": "elantris_Kaise",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Kaladin",
+      "target": "elantris_Raoden",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Kaladin",
+      "target": "elantris_Sarene",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Kaladin",
+      "target": "elantris_Vin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Kaladin",
+      "target": "elantris_Wayne",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Kaladin",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Karata",
@@ -6604,6 +8292,12 @@
     },
     {
       "source": "elantris_Karata",
+      "target": "elantris_Push",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Karata",
       "target": "elantris_Raoden",
       "series": "elantris",
       "weight": 18
@@ -6652,6 +8346,12 @@
     },
     {
       "source": "elantris_Karata",
+      "target": "elantris_Stone",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Karata",
       "target": "elantris_Taan",
       "series": "elantris",
       "weight": 11
@@ -6664,9 +8364,21 @@
     },
     {
       "source": "elantris_Karata",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Karata",
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 4
+    },
+    {
+      "source": "elantris_Karata",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Keseg",
@@ -6748,6 +8460,12 @@
     },
     {
       "source": "elantris_Keseg",
+      "target": "elantris_Stone",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Keseg",
       "target": "elantris_Taan",
       "series": "elantris",
       "weight": 3
@@ -6760,6 +8478,18 @@
     },
     {
       "source": "elantris_Keseg",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 3
+    },
+    {
+      "source": "elantris_Keseg",
+      "target": "elantris_Took",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Keseg",
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 2
@@ -6767,6 +8497,12 @@
     {
       "source": "elantris_Keseg",
       "target": "elantris_Waren",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Keseg",
+      "target": "elantris_Wells",
       "series": "elantris",
       "weight": 1
     },
@@ -6838,6 +8574,12 @@
     },
     {
       "source": "elantris_Kiin",
+      "target": "elantris_Push",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Kiin",
       "target": "elantris_Raoden",
       "series": "elantris",
       "weight": 24
@@ -6898,6 +8640,12 @@
     },
     {
       "source": "elantris_Kiin",
+      "target": "elantris_Stone",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Kiin",
       "target": "elantris_Taan",
       "series": "elantris",
       "weight": 5
@@ -6907,6 +8655,12 @@
       "target": "elantris_Telrii",
       "series": "elantris",
       "weight": 19
+    },
+    {
+      "source": "elantris_Kiin",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 6
     },
     {
       "source": "elantris_Kiin",
@@ -6922,7 +8676,25 @@
     },
     {
       "source": "elantris_Kiin",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Kiin",
       "target": "elantris_Waren",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Kiin",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Korath",
+      "target": "elantris_Lift",
       "series": "elantris",
       "weight": 1
     },
@@ -7018,7 +8790,19 @@
     },
     {
       "source": "elantris_Korath",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Korath",
       "target": "elantris_Teorn",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Korath",
+      "target": "elantris_Took",
       "series": "elantris",
       "weight": 1
     },
@@ -7030,9 +8814,21 @@
     },
     {
       "source": "elantris_Korath",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Korath",
       "target": "elantris_Waren",
       "series": "elantris",
       "weight": 3
+    },
+    {
+      "source": "elantris_Lift",
+      "target": "elantris_Omin",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Loren",
@@ -7132,6 +8928,12 @@
     },
     {
       "source": "elantris_Lukel",
+      "target": "elantris_Push",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Lukel",
       "target": "elantris_Raoden",
       "series": "elantris",
       "weight": 23
@@ -7198,6 +9000,12 @@
     },
     {
       "source": "elantris_Lukel",
+      "target": "elantris_Stone",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Lukel",
       "target": "elantris_Taan",
       "series": "elantris",
       "weight": 5
@@ -7207,6 +9015,12 @@
       "target": "elantris_Telrii",
       "series": "elantris",
       "weight": 15
+    },
+    {
+      "source": "elantris_Lukel",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 6
     },
     {
       "source": "elantris_Lukel",
@@ -7222,7 +9036,19 @@
     },
     {
       "source": "elantris_Lukel",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Lukel",
       "target": "elantris_Waren",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Lukel",
+      "target": "elantris_Wells",
       "series": "elantris",
       "weight": 1
     },
@@ -7235,6 +9061,12 @@
     {
       "source": "elantris_Maare",
       "target": "elantris_Opais",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Maare",
+      "target": "elantris_Push",
       "series": "elantris",
       "weight": 1
     },
@@ -7300,6 +9132,12 @@
     },
     {
       "source": "elantris_Maare",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Maare",
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 1
@@ -7341,6 +9179,36 @@
       "weight": 1
     },
     {
+      "source": "elantris_Maps",
+      "target": "elantris_Raoden",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Maps",
+      "target": "elantris_Sarene",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Maps",
+      "target": "elantris_Telrii",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Maps",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Maps",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
       "source": "elantris_Mareshe",
       "target": "elantris_Neoden",
       "series": "elantris",
@@ -7349,6 +9217,12 @@
     {
       "source": "elantris_Mareshe",
       "target": "elantris_Opais",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Mareshe",
+      "target": "elantris_Push",
       "series": "elantris",
       "weight": 1
     },
@@ -7411,6 +9285,12 @@
       "target": "elantris_Telrii",
       "series": "elantris",
       "weight": 4
+    },
+    {
+      "source": "elantris_Mareshe",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 2
     },
     {
       "source": "elantris_Mareshe",
@@ -7558,6 +9438,12 @@
     },
     {
       "source": "elantris_Omin",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Omin",
       "target": "elantris_Teorn",
       "series": "elantris",
       "weight": 1
@@ -7567,6 +9453,12 @@
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 3
+    },
+    {
+      "source": "elantris_Omin",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 2
     },
     {
       "source": "elantris_Omin",
@@ -7649,6 +9541,60 @@
     {
       "source": "elantris_Opais",
       "target": "elantris_Taan",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Push",
+      "target": "elantris_Raoden",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Push",
+      "target": "elantris_Roial",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Push",
+      "target": "elantris_Saolin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Push",
+      "target": "elantris_Sarene",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Push",
+      "target": "elantris_Shaor",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Push",
+      "target": "elantris_Shuden",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Push",
+      "target": "elantris_Telrii",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Push",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Push",
+      "target": "elantris_Torena",
       "series": "elantris",
       "weight": 1
     },
@@ -7732,6 +9678,12 @@
     },
     {
       "source": "elantris_Raoden",
+      "target": "elantris_Stone",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Raoden",
       "target": "elantris_Taan",
       "series": "elantris",
       "weight": 14
@@ -7741,6 +9693,12 @@
       "target": "elantris_Telrii",
       "series": "elantris",
       "weight": 28
+    },
+    {
+      "source": "elantris_Raoden",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 10
     },
     {
       "source": "elantris_Raoden",
@@ -7756,15 +9714,45 @@
     },
     {
       "source": "elantris_Raoden",
+      "target": "elantris_Took",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Raoden",
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 11
     },
     {
       "source": "elantris_Raoden",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Raoden",
+      "target": "elantris_Vin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Raoden",
       "target": "elantris_Waren",
       "series": "elantris",
       "weight": 1
+    },
+    {
+      "source": "elantris_Raoden",
+      "target": "elantris_Wayne",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Raoden",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 3
     },
     {
       "source": "elantris_Redeen",
@@ -7821,6 +9809,12 @@
       "weight": 2
     },
     {
+      "source": "elantris_Riil",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
       "source": "elantris_Roial",
       "target": "elantris_Saolin",
       "series": "elantris",
@@ -7858,6 +9852,12 @@
     },
     {
       "source": "elantris_Roial",
+      "target": "elantris_Stone",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Roial",
       "target": "elantris_Taan",
       "series": "elantris",
       "weight": 5
@@ -7870,6 +9870,12 @@
     },
     {
       "source": "elantris_Roial",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 7
+    },
+    {
+      "source": "elantris_Roial",
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 9
@@ -7877,6 +9883,12 @@
     {
       "source": "elantris_Roial",
       "target": "elantris_Waren",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Roial",
+      "target": "elantris_Wells",
       "series": "elantris",
       "weight": 1
     },
@@ -7909,6 +9921,12 @@
       "target": "elantris_Telrii",
       "series": "elantris",
       "weight": 3
+    },
+    {
+      "source": "elantris_Saolin",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 2
     },
     {
       "source": "elantris_Saolin",
@@ -7954,6 +9972,12 @@
     },
     {
       "source": "elantris_Sarene",
+      "target": "elantris_Stone",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Sarene",
       "target": "elantris_Taan",
       "series": "elantris",
       "weight": 10
@@ -7963,6 +9987,12 @@
       "target": "elantris_Telrii",
       "series": "elantris",
       "weight": 34
+    },
+    {
+      "source": "elantris_Sarene",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 8
     },
     {
       "source": "elantris_Sarene",
@@ -7978,15 +10008,45 @@
     },
     {
       "source": "elantris_Sarene",
+      "target": "elantris_Took",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Sarene",
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 11
     },
     {
       "source": "elantris_Sarene",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Sarene",
+      "target": "elantris_Vin",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Sarene",
       "target": "elantris_Waren",
       "series": "elantris",
       "weight": 1
+    },
+    {
+      "source": "elantris_Sarene",
+      "target": "elantris_Wayne",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Sarene",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 3
     },
     {
       "source": "elantris_Seaden",
@@ -8020,6 +10080,12 @@
     },
     {
       "source": "elantris_Seaden",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Seaden",
       "target": "elantris_Waren",
       "series": "elantris",
       "weight": 1
@@ -8062,6 +10128,12 @@
     },
     {
       "source": "elantris_Seinalan",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Seinalan",
       "target": "elantris_Teorn",
       "series": "elantris",
       "weight": 1
@@ -8071,6 +10143,12 @@
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 3
+    },
+    {
+      "source": "elantris_Seinalan",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Seor",
@@ -8085,10 +10163,22 @@
       "weight": 1
     },
     {
+      "source": "elantris_Seor",
+      "target": "elantris_Took",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
       "source": "elantris_Shaor",
       "target": "elantris_Shuden",
       "series": "elantris",
       "weight": 4
+    },
+    {
+      "source": "elantris_Shaor",
+      "target": "elantris_Stone",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Shaor",
@@ -8104,9 +10194,21 @@
     },
     {
       "source": "elantris_Shaor",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 3
+    },
+    {
+      "source": "elantris_Shaor",
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 2
+    },
+    {
+      "source": "elantris_Shaor",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 1
     },
     {
       "source": "elantris_Shuden",
@@ -8122,6 +10224,12 @@
     },
     {
       "source": "elantris_Shuden",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 4
+    },
+    {
+      "source": "elantris_Shuden",
       "target": "elantris_Teorn",
       "series": "elantris",
       "weight": 1
@@ -8134,7 +10242,31 @@
     },
     {
       "source": "elantris_Shuden",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Shuden",
       "target": "elantris_Waren",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Stone",
+      "target": "elantris_Taan",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Stone",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Stone",
+      "target": "elantris_Wells",
       "series": "elantris",
       "weight": 1
     },
@@ -8146,13 +10278,43 @@
     },
     {
       "source": "elantris_Taan",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Taan",
+      "target": "elantris_Took",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Taan",
       "target": "elantris_Torena",
       "series": "elantris",
       "weight": 2
     },
     {
+      "source": "elantris_Taan",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Telrii",
+      "target": "elantris_Ten",
+      "series": "elantris",
+      "weight": 6
+    },
+    {
       "source": "elantris_Telrii",
       "target": "elantris_Teorn",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Telrii",
+      "target": "elantris_Took",
       "series": "elantris",
       "weight": 1
     },
@@ -8164,7 +10326,31 @@
     },
     {
       "source": "elantris_Telrii",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Telrii",
       "target": "elantris_Waren",
+      "series": "elantris",
+      "weight": 2
+    },
+    {
+      "source": "elantris_Telrii",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Ten",
+      "target": "elantris_Torena",
+      "series": "elantris",
+      "weight": 3
+    },
+    {
+      "source": "elantris_Ten",
+      "target": "elantris_Wells",
       "series": "elantris",
       "weight": 2
     },
@@ -8175,8 +10361,44 @@
       "weight": 1
     },
     {
+      "source": "elantris_Teorn",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Torena",
+      "target": "elantris_Truth-Is-Waiting",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
       "source": "elantris_Torena",
       "target": "elantris_Waren",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Truth-Is-Waiting",
+      "target": "elantris_Waren",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Vin",
+      "target": "elantris_Wayne",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Vin",
+      "target": "elantris_Wells",
+      "series": "elantris",
+      "weight": 1
+    },
+    {
+      "source": "elantris_Wayne",
+      "target": "elantris_Wells",
       "series": "elantris",
       "weight": 1
     },
@@ -8297,12 +10519,6 @@
     {
       "source": "mistborn_Bendal",
       "target": "mistborn_Kelsier",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Bendal",
-      "target": "mistborn_OreSeur",
       "series": "mistborn",
       "weight": 3
     },
@@ -8482,6 +10698,12 @@
     },
     {
       "source": "mistborn_Bilg",
+      "target": "mistborn_Ten",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Bilg",
       "target": "mistborn_Vin",
       "series": "mistborn",
       "weight": 3
@@ -8530,12 +10752,6 @@
     },
     {
       "source": "mistborn_Blue",
-      "target": "mistborn_OreSeur",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Blue",
       "target": "mistborn_Pull",
       "series": "mistborn",
       "weight": 3
@@ -8563,12 +10779,6 @@
       "target": "mistborn_Sazed",
       "series": "mistborn",
       "weight": 6
-    },
-    {
-      "source": "mistborn_Blue",
-      "target": "mistborn_Telsin Ladrian",
-      "series": "mistborn",
-      "weight": 3
     },
     {
       "source": "mistborn_Blue",
@@ -8650,12 +10860,6 @@
     },
     {
       "source": "mistborn_Braches",
-      "target": "mistborn_OreSeur",
-      "series": "mistborn",
-      "weight": 6
-    },
-    {
-      "source": "mistborn_Braches",
       "target": "mistborn_Rashek",
       "series": "mistborn",
       "weight": 6
@@ -8722,13 +10926,13 @@
     },
     {
       "source": "mistborn_Cabe",
-      "target": "mistborn_OreSeur",
+      "target": "mistborn_Sazed",
       "series": "mistborn",
       "weight": 3
     },
     {
       "source": "mistborn_Cabe",
-      "target": "mistborn_Sazed",
+      "target": "mistborn_Shalash",
       "series": "mistborn",
       "weight": 3
     },
@@ -8782,6 +10986,12 @@
     },
     {
       "source": "mistborn_Call",
+      "target": "mistborn_El",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Call",
       "target": "mistborn_Felt",
       "series": "mistborn",
       "weight": 3
@@ -8797,6 +11007,12 @@
       "target": "mistborn_Kelsier",
       "series": "mistborn",
       "weight": 6
+    },
+    {
+      "source": "mistborn_Call",
+      "target": "mistborn_Lead",
+      "series": "mistborn",
+      "weight": 3
     },
     {
       "source": "mistborn_Call",
@@ -8854,6 +11070,12 @@
     },
     {
       "source": "mistborn_Call",
+      "target": "mistborn_Ten",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Call",
       "target": "mistborn_Vin",
       "series": "mistborn",
       "weight": 6
@@ -8861,6 +11083,90 @@
     {
       "source": "mistborn_Call",
       "target": "mistborn_Yeden",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Camon",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Carlee",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Cladent",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Dockson",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Kelsier",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Kevoux",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Kliss",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Redalevin",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Reen",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Rene",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Sazed",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Spook",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Tyden",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Callins",
+      "target": "mistborn_Vin",
       "series": "mistborn",
       "weight": 3
     },
@@ -8956,6 +11262,12 @@
     },
     {
       "source": "mistborn_Camon",
+      "target": "mistborn_Kenton",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Camon",
       "target": "mistborn_Kevoux",
       "series": "mistborn",
       "weight": 3
@@ -8988,7 +11300,7 @@
       "source": "mistborn_Camon",
       "target": "mistborn_Marsh",
       "series": "mistborn",
-      "weight": 33
+      "weight": 36
     },
     {
       "source": "mistborn_Camon",
@@ -9000,7 +11312,7 @@
       "source": "mistborn_Camon",
       "target": "mistborn_OreSeur",
       "series": "mistborn",
-      "weight": 36
+      "weight": 3
     },
     {
       "source": "mistborn_Camon",
@@ -9064,6 +11376,12 @@
     },
     {
       "source": "mistborn_Camon",
+      "target": "mistborn_Shalash",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Camon",
       "target": "mistborn_Spook",
       "series": "mistborn",
       "weight": 15
@@ -9076,13 +11394,7 @@
     },
     {
       "source": "mistborn_Camon",
-      "target": "mistborn_Telsin Ladrian",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Camon",
-      "target": "mistborn_TenSoon",
+      "target": "mistborn_Ten",
       "series": "mistborn",
       "weight": 3
     },
@@ -9172,12 +11484,6 @@
     },
     {
       "source": "mistborn_Carlee",
-      "target": "mistborn_OreSeur",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Carlee",
       "target": "mistborn_Redalevin",
       "series": "mistborn",
       "weight": 3
@@ -9250,6 +11556,12 @@
     },
     {
       "source": "mistborn_Cladent",
+      "target": "mistborn_El",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Cladent",
       "target": "mistborn_Fedik",
       "series": "mistborn",
       "weight": 6
@@ -9292,6 +11604,12 @@
     },
     {
       "source": "mistborn_Cladent",
+      "target": "mistborn_Kenton",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Cladent",
       "target": "mistborn_Kevoux",
       "series": "mistborn",
       "weight": 3
@@ -9316,6 +11634,12 @@
     },
     {
       "source": "mistborn_Cladent",
+      "target": "mistborn_Lead",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Cladent",
       "target": "mistborn_Mare",
       "series": "mistborn",
       "weight": 30
@@ -9324,7 +11648,7 @@
       "source": "mistborn_Cladent",
       "target": "mistborn_Marsh",
       "series": "mistborn",
-      "weight": 45
+      "weight": 48
     },
     {
       "source": "mistborn_Cladent",
@@ -9342,7 +11666,7 @@
       "source": "mistborn_Cladent",
       "target": "mistborn_OreSeur",
       "series": "mistborn",
-      "weight": 45
+      "weight": 3
     },
     {
       "source": "mistborn_Cladent",
@@ -9412,6 +11736,12 @@
     },
     {
       "source": "mistborn_Cladent",
+      "target": "mistborn_Shalash",
+      "series": "mistborn",
+      "weight": 6
+    },
+    {
+      "source": "mistborn_Cladent",
       "target": "mistborn_Sixteen",
       "series": "mistborn",
       "weight": 3
@@ -9448,9 +11778,15 @@
     },
     {
       "source": "mistborn_Cladent",
+      "target": "mistborn_Ten",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Cladent",
       "target": "mistborn_TenSoon",
       "series": "mistborn",
-      "weight": 6
+      "weight": 3
     },
     {
       "source": "mistborn_Cladent",
@@ -9520,12 +11856,6 @@
     },
     {
       "source": "mistborn_Cobble",
-      "target": "mistborn_OreSeur",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Cobble",
       "target": "mistborn_Push",
       "series": "mistborn",
       "weight": 3
@@ -9586,12 +11916,6 @@
     },
     {
       "source": "mistborn_Cosahn",
-      "target": "mistborn_OreSeur",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Cosahn",
       "target": "mistborn_Push",
       "series": "mistborn",
       "weight": 3
@@ -9605,12 +11929,6 @@
     {
       "source": "mistborn_Cosahn",
       "target": "mistborn_Sazed",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Cosahn",
-      "target": "mistborn_Telsin Ladrian",
       "series": "mistborn",
       "weight": 3
     },
@@ -9640,6 +11958,12 @@
     },
     {
       "source": "mistborn_Demoux",
+      "target": "mistborn_Izumakamo",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Demoux",
       "target": "mistborn_Kelsier",
       "series": "mistborn",
       "weight": 6
@@ -9654,17 +11978,11 @@
       "source": "mistborn_Demoux",
       "target": "mistborn_Marsh",
       "series": "mistborn",
-      "weight": 3
+      "weight": 6
     },
     {
       "source": "mistborn_Demoux",
       "target": "mistborn_Mennis",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Demoux",
-      "target": "mistborn_OreSeur",
       "series": "mistborn",
       "weight": 3
     },
@@ -9695,6 +12013,12 @@
     {
       "source": "mistborn_Demoux",
       "target": "mistborn_Sixteen",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Demoux",
+      "target": "mistborn_Ten",
       "series": "mistborn",
       "weight": 3
     },
@@ -9748,12 +12072,6 @@
     },
     {
       "source": "mistborn_Devinshae",
-      "target": "mistborn_OreSeur",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Devinshae",
       "target": "mistborn_Rashek",
       "series": "mistborn",
       "weight": 3
@@ -9785,12 +12103,6 @@
     {
       "source": "mistborn_Dilisteni",
       "target": "mistborn_Kelsier",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Dilisteni",
-      "target": "mistborn_OreSeur",
       "series": "mistborn",
       "weight": 3
     },
@@ -9916,6 +12228,12 @@
     },
     {
       "source": "mistborn_Dockson",
+      "target": "mistborn_El",
+      "series": "mistborn",
+      "weight": 6
+    },
+    {
+      "source": "mistborn_Dockson",
       "target": "mistborn_Fedik",
       "series": "mistborn",
       "weight": 6
@@ -9958,6 +12276,12 @@
     },
     {
       "source": "mistborn_Dockson",
+      "target": "mistborn_Hoid",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Dockson",
       "target": "mistborn_Hrud",
       "series": "mistborn",
       "weight": 3
@@ -9979,6 +12303,12 @@
       "target": "mistborn_Kelsier",
       "series": "mistborn",
       "weight": 87
+    },
+    {
+      "source": "mistborn_Dockson",
+      "target": "mistborn_Kenton",
+      "series": "mistborn",
+      "weight": 3
     },
     {
       "source": "mistborn_Dockson",
@@ -10006,6 +12336,12 @@
     },
     {
       "source": "mistborn_Dockson",
+      "target": "mistborn_Lead",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Dockson",
       "target": "mistborn_Mare",
       "series": "mistborn",
       "weight": 33
@@ -10014,7 +12350,7 @@
       "source": "mistborn_Dockson",
       "target": "mistborn_Marsh",
       "series": "mistborn",
-      "weight": 57
+      "weight": 60
     },
     {
       "source": "mistborn_Dockson",
@@ -10032,7 +12368,7 @@
       "source": "mistborn_Dockson",
       "target": "mistborn_OreSeur",
       "series": "mistborn",
-      "weight": 60
+      "weight": 6
     },
     {
       "source": "mistborn_Dockson",
@@ -10102,6 +12438,12 @@
     },
     {
       "source": "mistborn_Dockson",
+      "target": "mistborn_Shalash",
+      "series": "mistborn",
+      "weight": 9
+    },
+    {
+      "source": "mistborn_Dockson",
       "target": "mistborn_Sixteen",
       "series": "mistborn",
       "weight": 3
@@ -10138,9 +12480,15 @@
     },
     {
       "source": "mistborn_Dockson",
+      "target": "mistborn_Ten",
+      "series": "mistborn",
+      "weight": 6
+    },
+    {
+      "source": "mistborn_Dockson",
       "target": "mistborn_TenSoon",
       "series": "mistborn",
-      "weight": 9
+      "weight": 3
     },
     {
       "source": "mistborn_Dockson",
@@ -10189,6 +12537,12 @@
       "target": "mistborn_Yeden",
       "series": "mistborn",
       "weight": 48
+    },
+    {
+      "source": "mistborn_Edgard Ladrian",
+      "target": "mistborn_El",
+      "series": "mistborn",
+      "weight": 6
     },
     {
       "source": "mistborn_Edgard Ladrian",
@@ -10252,6 +12606,12 @@
     },
     {
       "source": "mistborn_Edgard Ladrian",
+      "target": "mistborn_Kenton",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Edgard Ladrian",
       "target": "mistborn_Kliss",
       "series": "mistborn",
       "weight": 3
@@ -10270,6 +12630,12 @@
     },
     {
       "source": "mistborn_Edgard Ladrian",
+      "target": "mistborn_Lead",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Edgard Ladrian",
       "target": "mistborn_Mare",
       "series": "mistborn",
       "weight": 33
@@ -10278,7 +12644,7 @@
       "source": "mistborn_Edgard Ladrian",
       "target": "mistborn_Marsh",
       "series": "mistborn",
-      "weight": 54
+      "weight": 60
     },
     {
       "source": "mistborn_Edgard Ladrian",
@@ -10294,9 +12660,15 @@
     },
     {
       "source": "mistborn_Edgard Ladrian",
+      "target": "mistborn_Night",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Edgard Ladrian",
       "target": "mistborn_OreSeur",
       "series": "mistborn",
-      "weight": 54
+      "weight": 6
     },
     {
       "source": "mistborn_Edgard Ladrian",
@@ -10354,6 +12726,12 @@
     },
     {
       "source": "mistborn_Edgard Ladrian",
+      "target": "mistborn_Shalash",
+      "series": "mistborn",
+      "weight": 9
+    },
+    {
+      "source": "mistborn_Edgard Ladrian",
       "target": "mistborn_Sixteen",
       "series": "mistborn",
       "weight": 3
@@ -10390,15 +12768,15 @@
     },
     {
       "source": "mistborn_Edgard Ladrian",
-      "target": "mistborn_Telsin Ladrian",
+      "target": "mistborn_Ten",
       "series": "mistborn",
-      "weight": 3
+      "weight": 6
     },
     {
       "source": "mistborn_Edgard Ladrian",
       "target": "mistborn_TenSoon",
       "series": "mistborn",
-      "weight": 9
+      "weight": 3
     },
     {
       "source": "mistborn_Edgard Ladrian",
@@ -10429,6 +12807,90 @@
       "target": "mistborn_Yeden",
       "series": "mistborn",
       "weight": 45
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_Felt",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_Hammond",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_Kelsier",
+      "series": "mistborn",
+      "weight": 6
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_Lead",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_Mare",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_Marsh",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_OreSeur",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_Pull",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_Push",
+      "series": "mistborn",
+      "weight": 6
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_Redd",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_Reen",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_Sazed",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_Spook",
+      "series": "mistborn",
+      "weight": 6
+    },
+    {
+      "source": "mistborn_El",
+      "target": "mistborn_Vin",
+      "series": "mistborn",
+      "weight": 6
     },
     {
       "source": "mistborn_Fedik",
@@ -10462,12 +12924,6 @@
     },
     {
       "source": "mistborn_Fedik",
-      "target": "mistborn_OreSeur",
-      "series": "mistborn",
-      "weight": 6
-    },
-    {
-      "source": "mistborn_Fedik",
       "target": "mistborn_Pull",
       "series": "mistborn",
       "weight": 3
@@ -10489,6 +12945,12 @@
       "target": "mistborn_Sazed",
       "series": "mistborn",
       "weight": 6
+    },
+    {
+      "source": "mistborn_Fedik",
+      "target": "mistborn_Shalash",
+      "series": "mistborn",
+      "weight": 3
     },
     {
       "source": "mistborn_Fedik",
@@ -10529,6 +12991,12 @@
     {
       "source": "mistborn_Felt",
       "target": "mistborn_Kelsier",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Felt",
+      "target": "mistborn_Lead",
       "series": "mistborn",
       "weight": 3
     },
@@ -10600,12 +13068,6 @@
     },
     {
       "source": "mistborn_Flavine",
-      "target": "mistborn_OreSeur",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Flavine",
       "target": "mistborn_Pull",
       "series": "mistborn",
       "weight": 3
@@ -10625,6 +13087,12 @@
     {
       "source": "mistborn_Flavine",
       "target": "mistborn_Sazed",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Flavine",
+      "target": "mistborn_Shalash",
       "series": "mistborn",
       "weight": 3
     },
@@ -10672,7 +13140,7 @@
     },
     {
       "source": "mistborn_Flen",
-      "target": "mistborn_OreSeur",
+      "target": "mistborn_Shalash",
       "series": "mistborn",
       "weight": 3
     },
@@ -10710,7 +13178,7 @@
       "source": "mistborn_Gemmel",
       "target": "mistborn_OreSeur",
       "series": "mistborn",
-      "weight": 6
+      "weight": 3
     },
     {
       "source": "mistborn_Gemmel",
@@ -10744,12 +13212,6 @@
     },
     {
       "source": "mistborn_Gemmel",
-      "target": "mistborn_TenSoon",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Gemmel",
       "target": "mistborn_Vin",
       "series": "mistborn",
       "weight": 9
@@ -10775,12 +13237,6 @@
     {
       "source": "mistborn_Goradel",
       "target": "mistborn_Kelsier",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Goradel",
-      "target": "mistborn_OreSeur",
       "series": "mistborn",
       "weight": 3
     },
@@ -10846,9 +13302,21 @@
     },
     {
       "source": "mistborn_Hammond",
+      "target": "mistborn_Kenton",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Hammond",
       "target": "mistborn_Kwaan",
       "series": "mistborn",
       "weight": 6
+    },
+    {
+      "source": "mistborn_Hammond",
+      "target": "mistborn_Lead",
+      "series": "mistborn",
+      "weight": 3
     },
     {
       "source": "mistborn_Hammond",
@@ -10867,12 +13335,6 @@
       "target": "mistborn_Milev",
       "series": "mistborn",
       "weight": 3
-    },
-    {
-      "source": "mistborn_Hammond",
-      "target": "mistborn_OreSeur",
-      "series": "mistborn",
-      "weight": 24
     },
     {
       "source": "mistborn_Hammond",
@@ -10927,6 +13389,12 @@
       "target": "mistborn_Tawnson",
       "series": "mistborn",
       "weight": 3
+    },
+    {
+      "source": "mistborn_Hammond",
+      "target": "mistborn_Ten",
+      "series": "mistborn",
+      "weight": 6
     },
     {
       "source": "mistborn_Hammond",
@@ -11038,7 +13506,7 @@
     },
     {
       "source": "mistborn_Heberen",
-      "target": "mistborn_OreSeur",
+      "target": "mistborn_Marsh",
       "series": "mistborn",
       "weight": 3
     },
@@ -11057,6 +13525,36 @@
     {
       "source": "mistborn_Heberen",
       "target": "mistborn_Vin",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Hoid",
+      "target": "mistborn_Kelsier",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Hoid",
+      "target": "mistborn_Kwaan",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Hoid",
+      "target": "mistborn_Sazed",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Hoid",
+      "target": "mistborn_Vin",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Hoid",
+      "target": "mistborn_Yeden",
       "series": "mistborn",
       "weight": 3
     },
@@ -11140,7 +13638,7 @@
     },
     {
       "source": "mistborn_Jess",
-      "target": "mistborn_OreSeur",
+      "target": "mistborn_Shalash",
       "series": "mistborn",
       "weight": 3
     },
@@ -11165,12 +13663,6 @@
     {
       "source": "mistborn_Kar",
       "target": "mistborn_Marsh",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Kar",
-      "target": "mistborn_OreSeur",
       "series": "mistborn",
       "weight": 3
     },
@@ -11230,12 +13722,6 @@
     },
     {
       "source": "mistborn_Kareien",
-      "target": "mistborn_OreSeur",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Kareien",
       "target": "mistborn_Rashek",
       "series": "mistborn",
       "weight": 3
@@ -11261,6 +13747,12 @@
     {
       "source": "mistborn_Kareien",
       "target": "mistborn_Yeden",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Kelsier",
+      "target": "mistborn_Kenton",
       "series": "mistborn",
       "weight": 3
     },
@@ -11296,6 +13788,12 @@
     },
     {
       "source": "mistborn_Kelsier",
+      "target": "mistborn_Lead",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Kelsier",
       "target": "mistborn_Mare",
       "series": "mistborn",
       "weight": 36
@@ -11304,7 +13802,7 @@
       "source": "mistborn_Kelsier",
       "target": "mistborn_Marsh",
       "series": "mistborn",
-      "weight": 69
+      "weight": 75
     },
     {
       "source": "mistborn_Kelsier",
@@ -11320,9 +13818,15 @@
     },
     {
       "source": "mistborn_Kelsier",
+      "target": "mistborn_Night",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Kelsier",
       "target": "mistborn_OreSeur",
       "series": "mistborn",
-      "weight": 84
+      "weight": 6
     },
     {
       "source": "mistborn_Kelsier",
@@ -11398,6 +13902,12 @@
     },
     {
       "source": "mistborn_Kelsier",
+      "target": "mistborn_Shalash",
+      "series": "mistborn",
+      "weight": 12
+    },
+    {
+      "source": "mistborn_Kelsier",
       "target": "mistborn_Shum",
       "series": "mistborn",
       "weight": 3
@@ -11440,21 +13950,21 @@
     },
     {
       "source": "mistborn_Kelsier",
-      "target": "mistborn_Telsin Ladrian",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Kelsier",
       "target": "mistborn_Temadre",
       "series": "mistborn",
       "weight": 3
     },
     {
       "source": "mistborn_Kelsier",
+      "target": "mistborn_Ten",
+      "series": "mistborn",
+      "weight": 6
+    },
+    {
+      "source": "mistborn_Kelsier",
       "target": "mistborn_TenSoon",
       "series": "mistborn",
-      "weight": 9
+      "weight": 3
     },
     {
       "source": "mistborn_Kelsier",
@@ -11523,14 +14033,44 @@
       "weight": 3
     },
     {
-      "source": "mistborn_Kevoux",
-      "target": "mistborn_Kliss",
+      "source": "mistborn_Kenton",
+      "target": "mistborn_Mare",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Kenton",
+      "target": "mistborn_Marsh",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Kenton",
+      "target": "mistborn_Sazed",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Kenton",
+      "target": "mistborn_Tawnson",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Kenton",
+      "target": "mistborn_Vin",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Kenton",
+      "target": "mistborn_Yeden",
       "series": "mistborn",
       "weight": 3
     },
     {
       "source": "mistborn_Kevoux",
-      "target": "mistborn_OreSeur",
+      "target": "mistborn_Kliss",
       "series": "mistborn",
       "weight": 3
     },
@@ -11590,12 +14130,6 @@
     },
     {
       "source": "mistborn_Kliss",
-      "target": "mistborn_OreSeur",
-      "series": "mistborn",
-      "weight": 12
-    },
-    {
-      "source": "mistborn_Kliss",
       "target": "mistborn_Pull",
       "series": "mistborn",
       "weight": 3
@@ -11635,6 +14169,12 @@
       "target": "mistborn_Sazed",
       "series": "mistborn",
       "weight": 12
+    },
+    {
+      "source": "mistborn_Kliss",
+      "target": "mistborn_Shalash",
+      "series": "mistborn",
+      "weight": 3
     },
     {
       "source": "mistborn_Kliss",
@@ -11698,7 +14238,7 @@
     },
     {
       "source": "mistborn_Kurdon",
-      "target": "mistborn_OreSeur",
+      "target": "mistborn_Shalash",
       "series": "mistborn",
       "weight": 3
     },
@@ -11728,12 +14268,6 @@
     },
     {
       "source": "mistborn_Kwaan",
-      "target": "mistborn_OreSeur",
-      "series": "mistborn",
-      "weight": 9
-    },
-    {
-      "source": "mistborn_Kwaan",
       "target": "mistborn_Rashek",
       "series": "mistborn",
       "weight": 3
@@ -11788,6 +14322,12 @@
     },
     {
       "source": "mistborn_Laird",
+      "target": "mistborn_Shalash",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Laird",
       "target": "mistborn_Theron",
       "series": "mistborn",
       "weight": 6
@@ -11817,6 +14357,60 @@
       "weight": 3
     },
     {
+      "source": "mistborn_Lead",
+      "target": "mistborn_Mare",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Lead",
+      "target": "mistborn_Marsh",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Lead",
+      "target": "mistborn_Pull",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Lead",
+      "target": "mistborn_Push",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Lead",
+      "target": "mistborn_Redd",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Lead",
+      "target": "mistborn_Reen",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Lead",
+      "target": "mistborn_Sazed",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Lead",
+      "target": "mistborn_Spook",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Lead",
+      "target": "mistborn_Vin",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
       "source": "mistborn_Mare",
       "target": "mistborn_Marsh",
       "series": "mistborn",
@@ -11832,7 +14426,7 @@
       "source": "mistborn_Mare",
       "target": "mistborn_OreSeur",
       "series": "mistborn",
-      "weight": 18
+      "weight": 3
     },
     {
       "source": "mistborn_Mare",
@@ -11890,7 +14484,7 @@
     },
     {
       "source": "mistborn_Mare",
-      "target": "mistborn_TenSoon",
+      "target": "mistborn_Ten",
       "series": "mistborn",
       "weight": 3
     },
@@ -11932,15 +14526,21 @@
     },
     {
       "source": "mistborn_Marsh",
+      "target": "mistborn_Mennis",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Marsh",
       "target": "mistborn_Milev",
       "series": "mistborn",
       "weight": 3
     },
     {
       "source": "mistborn_Marsh",
-      "target": "mistborn_OreSeur",
+      "target": "mistborn_Night",
       "series": "mistborn",
-      "weight": 48
+      "weight": 3
     },
     {
       "source": "mistborn_Marsh",
@@ -11952,7 +14552,7 @@
       "source": "mistborn_Marsh",
       "target": "mistborn_Push",
       "series": "mistborn",
-      "weight": 36
+      "weight": 39
     },
     {
       "source": "mistborn_Marsh",
@@ -11970,7 +14570,7 @@
       "source": "mistborn_Marsh",
       "target": "mistborn_Reen",
       "series": "mistborn",
-      "weight": 42
+      "weight": 45
     },
     {
       "source": "mistborn_Marsh",
@@ -11988,11 +14588,23 @@
       "source": "mistborn_Marsh",
       "target": "mistborn_Sazed",
       "series": "mistborn",
-      "weight": 51
+      "weight": 57
     },
     {
       "source": "mistborn_Marsh",
       "target": "mistborn_Sertes",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Marsh",
+      "target": "mistborn_Shalash",
+      "series": "mistborn",
+      "weight": 6
+    },
+    {
+      "source": "mistborn_Marsh",
+      "target": "mistborn_Sixteen",
       "series": "mistborn",
       "weight": 3
     },
@@ -12013,6 +14625,12 @@
       "target": "mistborn_Tawnson",
       "series": "mistborn",
       "weight": 3
+    },
+    {
+      "source": "mistborn_Marsh",
+      "target": "mistborn_Ten",
+      "series": "mistborn",
+      "weight": 6
     },
     {
       "source": "mistborn_Marsh",
@@ -12042,7 +14660,7 @@
       "source": "mistborn_Marsh",
       "target": "mistborn_Vin",
       "series": "mistborn",
-      "weight": 69
+      "weight": 75
     },
     {
       "source": "mistborn_Marsh",
@@ -12054,19 +14672,13 @@
       "source": "mistborn_Marsh",
       "target": "mistborn_Yeden",
       "series": "mistborn",
-      "weight": 39
+      "weight": 42
     },
     {
       "source": "mistborn_Marsh",
       "target": "mistborn_Yestal",
       "series": "mistborn",
       "weight": 3
-    },
-    {
-      "source": "mistborn_Mennis",
-      "target": "mistborn_OreSeur",
-      "series": "mistborn",
-      "weight": 6
     },
     {
       "source": "mistborn_Mennis",
@@ -12077,6 +14689,12 @@
     {
       "source": "mistborn_Mennis",
       "target": "mistborn_Sazed",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Mennis",
+      "target": "mistborn_Shalash",
       "series": "mistborn",
       "weight": 3
     },
@@ -12159,134 +14777,44 @@
       "weight": 6
     },
     {
+      "source": "mistborn_Night",
+      "target": "mistborn_Push",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Night",
+      "target": "mistborn_Reen",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Night",
+      "target": "mistborn_Sazed",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Night",
+      "target": "mistborn_Vin",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
       "source": "mistborn_OreSeur",
       "target": "mistborn_Pull",
       "series": "mistborn",
-      "weight": 24
+      "weight": 3
     },
     {
       "source": "mistborn_OreSeur",
       "target": "mistborn_Push",
       "series": "mistborn",
-      "weight": 33
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Rashek",
-      "series": "mistborn",
-      "weight": 21
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Redalevin",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Reen",
-      "series": "mistborn",
-      "weight": 39
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Rene",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Rian",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Rudd",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Sazed",
-      "series": "mistborn",
-      "weight": 69
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Shum",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Sixteen",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Spook",
-      "series": "mistborn",
-      "weight": 39
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Staxles",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Tase",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Tawnson",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Tegas",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Telsin Ladrian",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_TenSoon",
-      "series": "mistborn",
       "weight": 6
     },
     {
       "source": "mistborn_OreSeur",
-      "target": "mistborn_Tepper",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Theron",
-      "series": "mistborn",
-      "weight": 9
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Triss",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Tyden",
+      "target": "mistborn_Spook",
       "series": "mistborn",
       "weight": 3
     },
@@ -12294,29 +14822,11 @@
       "source": "mistborn_OreSeur",
       "target": "mistborn_Vin",
       "series": "mistborn",
-      "weight": 81
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Walin",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Wells",
-      "series": "mistborn",
-      "weight": 3
+      "weight": 6
     },
     {
       "source": "mistborn_OreSeur",
       "target": "mistborn_Yeden",
-      "series": "mistborn",
-      "weight": 30
-    },
-    {
-      "source": "mistborn_OreSeur",
-      "target": "mistborn_Yestal",
       "series": "mistborn",
       "weight": 3
     },
@@ -12352,6 +14862,12 @@
     },
     {
       "source": "mistborn_Pull",
+      "target": "mistborn_Shalash",
+      "series": "mistborn",
+      "weight": 6
+    },
+    {
+      "source": "mistborn_Pull",
       "target": "mistborn_Spook",
       "series": "mistborn",
       "weight": 15
@@ -12364,7 +14880,7 @@
     },
     {
       "source": "mistborn_Pull",
-      "target": "mistborn_TenSoon",
+      "target": "mistborn_Ten",
       "series": "mistborn",
       "weight": 3
     },
@@ -12430,6 +14946,12 @@
     },
     {
       "source": "mistborn_Push",
+      "target": "mistborn_Shalash",
+      "series": "mistborn",
+      "weight": 6
+    },
+    {
+      "source": "mistborn_Push",
       "target": "mistborn_Sixteen",
       "series": "mistborn",
       "weight": 3
@@ -12443,12 +14965,6 @@
     {
       "source": "mistborn_Push",
       "target": "mistborn_Tase",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
-      "source": "mistborn_Push",
-      "target": "mistborn_Telsin Ladrian",
       "series": "mistborn",
       "weight": 3
     },
@@ -12457,12 +14973,6 @@
       "target": "mistborn_Temadre",
       "series": "mistborn",
       "weight": 3
-    },
-    {
-      "source": "mistborn_Push",
-      "target": "mistborn_TenSoon",
-      "series": "mistborn",
-      "weight": 6
     },
     {
       "source": "mistborn_Push",
@@ -12532,6 +15042,12 @@
     },
     {
       "source": "mistborn_Rashek",
+      "target": "mistborn_Ten",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Rashek",
       "target": "mistborn_Theron",
       "series": "mistborn",
       "weight": 3
@@ -12670,13 +15186,19 @@
     },
     {
       "source": "mistborn_Reen",
+      "target": "mistborn_Shalash",
+      "series": "mistborn",
+      "weight": 6
+    },
+    {
+      "source": "mistborn_Reen",
       "target": "mistborn_Spook",
       "series": "mistborn",
       "weight": 27
     },
     {
       "source": "mistborn_Reen",
-      "target": "mistborn_Telsin Ladrian",
+      "target": "mistborn_Ten",
       "series": "mistborn",
       "weight": 3
     },
@@ -12826,6 +15348,12 @@
     },
     {
       "source": "mistborn_Sazed",
+      "target": "mistborn_Shalash",
+      "series": "mistborn",
+      "weight": 9
+    },
+    {
+      "source": "mistborn_Sazed",
       "target": "mistborn_Sixteen",
       "series": "mistborn",
       "weight": 3
@@ -12862,7 +15390,7 @@
     },
     {
       "source": "mistborn_Sazed",
-      "target": "mistborn_Telsin Ladrian",
+      "target": "mistborn_Ten",
       "series": "mistborn",
       "weight": 3
     },
@@ -12945,6 +15473,72 @@
       "weight": 3
     },
     {
+      "source": "mistborn_Shalash",
+      "target": "mistborn_Shum",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Shalash",
+      "target": "mistborn_Spook",
+      "series": "mistborn",
+      "weight": 6
+    },
+    {
+      "source": "mistborn_Shalash",
+      "target": "mistborn_Staxles",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Shalash",
+      "target": "mistborn_Tase",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Shalash",
+      "target": "mistborn_Tegas",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Shalash",
+      "target": "mistborn_TenSoon",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Shalash",
+      "target": "mistborn_Tepper",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Shalash",
+      "target": "mistborn_Theron",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Shalash",
+      "target": "mistborn_Ulef",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
+      "source": "mistborn_Shalash",
+      "target": "mistborn_Vin",
+      "series": "mistborn",
+      "weight": 12
+    },
+    {
+      "source": "mistborn_Shalash",
+      "target": "mistborn_Yeden",
+      "series": "mistborn",
+      "weight": 3
+    },
+    {
       "source": "mistborn_Shum",
       "target": "mistborn_Tepper",
       "series": "mistborn",
@@ -12970,7 +15564,7 @@
     },
     {
       "source": "mistborn_Spook",
-      "target": "mistborn_TenSoon",
+      "target": "mistborn_Ten",
       "series": "mistborn",
       "weight": 3
     },
@@ -13053,26 +15647,26 @@
       "weight": 3
     },
     {
-      "source": "mistborn_Telsin Ladrian",
-      "target": "mistborn_Vin",
-      "series": "mistborn",
-      "weight": 3
-    },
-    {
       "source": "mistborn_Temadre",
       "target": "mistborn_Vin",
       "series": "mistborn",
       "weight": 3
     },
     {
-      "source": "mistborn_TenSoon",
+      "source": "mistborn_Ten",
       "target": "mistborn_Vin",
       "series": "mistborn",
-      "weight": 9
+      "weight": 6
+    },
+    {
+      "source": "mistborn_Ten",
+      "target": "mistborn_Yeden",
+      "series": "mistborn",
+      "weight": 6
     },
     {
       "source": "mistborn_TenSoon",
-      "target": "mistborn_Yeden",
+      "target": "mistborn_Vin",
       "series": "mistborn",
       "weight": 3
     },
@@ -13204,9 +15798,21 @@
     },
     {
       "source": "warbreaker_Allmother",
+      "target": "warbreaker_Hoid",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Allmother",
       "target": "warbreaker_Hopefinder",
       "series": "warbreaker",
       "weight": 6
+    },
+    {
+      "source": "warbreaker_Allmother",
+      "target": "warbreaker_Lift",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Allmother",
@@ -13288,6 +15894,18 @@
     },
     {
       "source": "warbreaker_Allmother",
+      "target": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Allmother",
+      "target": "warbreaker_Wind",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Allmother",
       "target": "warbreaker_Yesteel",
       "series": "warbreaker",
       "weight": 2
@@ -13315,6 +15933,12 @@
       "target": "warbreaker_Denth",
       "series": "warbreaker",
       "weight": 24
+    },
+    {
+      "source": "warbreaker_Arsteel",
+      "target": "warbreaker_Edgli",
+      "series": "warbreaker",
+      "weight": 6
     },
     {
       "source": "warbreaker_Arsteel",
@@ -13373,6 +15997,12 @@
     {
       "source": "warbreaker_Arsteel",
       "target": "warbreaker_Nanrovah",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Arsteel",
+      "target": "warbreaker_Night",
       "series": "warbreaker",
       "weight": 2
     },
@@ -13474,13 +16104,73 @@
     },
     {
       "source": "warbreaker_Arsteel",
+      "target": "warbreaker_Wind",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Arsteel",
       "target": "warbreaker_Yesteel",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ashe",
+      "target": "warbreaker_Dio",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ashe",
+      "target": "warbreaker_Eshen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ashe",
+      "target": "warbreaker_Eventeo",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ashe",
+      "target": "warbreaker_Iadon",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ashe",
+      "target": "warbreaker_Ketol",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ashe",
+      "target": "warbreaker_Naolen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ashe",
+      "target": "warbreaker_Raoden",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ashe",
+      "target": "warbreaker_Sarene",
       "series": "warbreaker",
       "weight": 2
     },
     {
       "source": "warbreaker_Ashu",
       "target": "warbreaker_Denth",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ashu",
+      "target": "warbreaker_Edgli",
       "series": "warbreaker",
       "weight": 2
     },
@@ -13552,6 +16242,12 @@
     },
     {
       "source": "warbreaker_Bebid",
+      "target": "warbreaker_Marsh",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Bebid",
       "target": "warbreaker_Mercystar",
       "series": "warbreaker",
       "weight": 2
@@ -13575,6 +16271,30 @@
       "weight": 2
     },
     {
+      "source": "warbreaker_Blue",
+      "target": "warbreaker_Denth",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Blue",
+      "target": "warbreaker_Parlin",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Blue",
+      "target": "warbreaker_Vasher",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Blue",
+      "target": "warbreaker_Vivenna",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
       "source": "warbreaker_Blushweaver",
       "target": "warbreaker_Brighthue",
       "series": "warbreaker",
@@ -13591,6 +16311,18 @@
       "target": "warbreaker_Denth",
       "series": "warbreaker",
       "weight": 18
+    },
+    {
+      "source": "warbreaker_Blushweaver",
+      "target": "warbreaker_Edgli",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Blushweaver",
+      "target": "warbreaker_Faith",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Blushweaver",
@@ -13642,9 +16374,21 @@
     },
     {
       "source": "warbreaker_Blushweaver",
+      "target": "warbreaker_Hoid",
+      "series": "warbreaker",
+      "weight": 4
+    },
+    {
+      "source": "warbreaker_Blushweaver",
       "target": "warbreaker_Hopefinder",
       "series": "warbreaker",
       "weight": 6
+    },
+    {
+      "source": "warbreaker_Blushweaver",
+      "target": "warbreaker_Human",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Blushweaver",
@@ -13675,6 +16419,12 @@
       "target": "warbreaker_Lifeblesser",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Blushweaver",
+      "target": "warbreaker_Lift",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Blushweaver",
@@ -13714,6 +16464,12 @@
     },
     {
       "source": "warbreaker_Blushweaver",
+      "target": "warbreaker_Night",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Blushweaver",
       "target": "warbreaker_Nightblood",
       "series": "warbreaker",
       "weight": 16
@@ -13750,9 +16506,21 @@
     },
     {
       "source": "warbreaker_Blushweaver",
+      "target": "warbreaker_Sixteen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Blushweaver",
       "target": "warbreaker_Stillmark",
       "series": "warbreaker",
       "weight": 6
+    },
+    {
+      "source": "warbreaker_Blushweaver",
+      "target": "warbreaker_Stone",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Blushweaver",
@@ -13775,6 +16543,12 @@
     {
       "source": "warbreaker_Blushweaver",
       "target": "warbreaker_Thame",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Blushweaver",
+      "target": "warbreaker_Took",
       "series": "warbreaker",
       "weight": 2
     },
@@ -13816,9 +16590,21 @@
     },
     {
       "source": "warbreaker_Blushweaver",
+      "target": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Blushweaver",
       "target": "warbreaker_Weatherlove",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Blushweaver",
+      "target": "warbreaker_Wind",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Blushweaver",
@@ -13882,6 +16668,12 @@
     },
     {
       "source": "warbreaker_Brightvison",
+      "target": "warbreaker_Marsh",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Brightvison",
       "target": "warbreaker_Mercystar",
       "series": "warbreaker",
       "weight": 2
@@ -13907,6 +16699,12 @@
     {
       "source": "warbreaker_Cads",
       "target": "warbreaker_Denth",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Cads",
+      "target": "warbreaker_Took",
       "series": "warbreaker",
       "weight": 2
     },
@@ -13971,10 +16769,22 @@
       "weight": 2
     },
     {
+      "source": "warbreaker_Calmseer",
+      "target": "warbreaker_Wind",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
       "source": "warbreaker_Dedelin",
       "target": "warbreaker_Denth",
       "series": "warbreaker",
       "weight": 6
+    },
+    {
+      "source": "warbreaker_Dedelin",
+      "target": "warbreaker_Edgli",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Dedelin",
@@ -14020,6 +16830,12 @@
     },
     {
       "source": "warbreaker_Dedelin",
+      "target": "warbreaker_Marsh",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dedelin",
       "target": "warbreaker_Mercystar",
       "series": "warbreaker",
       "weight": 2
@@ -14062,6 +16878,12 @@
     },
     {
       "source": "warbreaker_Dedelin",
+      "target": "warbreaker_Took",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dedelin",
       "target": "warbreaker_Vahr",
       "series": "warbreaker",
       "weight": 8
@@ -14086,6 +16908,18 @@
     },
     {
       "source": "warbreaker_Denth",
+      "target": "warbreaker_Edgli",
+      "series": "warbreaker",
+      "weight": 8
+    },
+    {
+      "source": "warbreaker_Denth",
+      "target": "warbreaker_Faith",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Denth",
       "target": "warbreaker_Fob",
       "series": "warbreaker",
       "weight": 2
@@ -14107,6 +16941,18 @@
       "target": "warbreaker_Havarseth",
       "series": "warbreaker",
       "weight": 10
+    },
+    {
+      "source": "warbreaker_Denth",
+      "target": "warbreaker_Hoid",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Denth",
+      "target": "warbreaker_Human",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Denth",
@@ -14164,6 +17010,12 @@
     },
     {
       "source": "warbreaker_Denth",
+      "target": "warbreaker_Night",
+      "series": "warbreaker",
+      "weight": 4
+    },
+    {
+      "source": "warbreaker_Denth",
       "target": "warbreaker_Nightblood",
       "series": "warbreaker",
       "weight": 22
@@ -14200,6 +17052,12 @@
     },
     {
       "source": "warbreaker_Denth",
+      "target": "warbreaker_Stone",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Denth",
       "target": "warbreaker_Susebron",
       "series": "warbreaker",
       "weight": 16
@@ -14212,9 +17070,21 @@
     },
     {
       "source": "warbreaker_Denth",
+      "target": "warbreaker_Ten",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Denth",
       "target": "warbreaker_Thame",
       "series": "warbreaker",
       "weight": 8
+    },
+    {
+      "source": "warbreaker_Denth",
+      "target": "warbreaker_Took",
+      "series": "warbreaker",
+      "weight": 4
     },
     {
       "source": "warbreaker_Denth",
@@ -14260,9 +17130,21 @@
     },
     {
       "source": "warbreaker_Denth",
+      "target": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Denth",
       "target": "warbreaker_Weatherlove",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Denth",
+      "target": "warbreaker_Wind",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Denth",
@@ -14275,6 +17157,330 @@
       "target": "warbreaker_Yesteel",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Dereth",
+      "target": "warbreaker_Dilaf",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dereth",
+      "target": "warbreaker_Fjon",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dereth",
+      "target": "warbreaker_Hrathen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dereth",
+      "target": "warbreaker_Keseg",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dilaf",
+      "target": "warbreaker_Fjon",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dilaf",
+      "target": "warbreaker_Hrathen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dilaf",
+      "target": "warbreaker_Keseg",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dio",
+      "target": "warbreaker_Eshen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dio",
+      "target": "warbreaker_Eventeo",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dio",
+      "target": "warbreaker_Iadon",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dio",
+      "target": "warbreaker_Ketol",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dio",
+      "target": "warbreaker_Naolen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dio",
+      "target": "warbreaker_Raoden",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Dio",
+      "target": "warbreaker_Sarene",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Fob",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Grable",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Havarseth",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Hoid",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Jewels",
+      "series": "warbreaker",
+      "weight": 6
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Lemex",
+      "series": "warbreaker",
+      "weight": 6
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Lifeblesser",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Lightsong",
+      "series": "warbreaker",
+      "weight": 4
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Llarimar",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Nanrovah",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Parlin",
+      "series": "warbreaker",
+      "weight": 8
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Paxen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Sisirinah",
+      "series": "warbreaker",
+      "weight": 6
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Stillmark",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Susebron",
+      "series": "warbreaker",
+      "weight": 4
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Thame",
+      "series": "warbreaker",
+      "weight": 6
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Truthcall",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Vahr",
+      "series": "warbreaker",
+      "weight": 4
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Vasher",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Vivenna",
+      "series": "warbreaker",
+      "weight": 8
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Vo",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Weatherlove",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Edgli",
+      "target": "warbreaker_Yarda",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Elao",
+      "target": "warbreaker_Galladon",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Elao",
+      "target": "warbreaker_Iadon",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Elao",
+      "target": "warbreaker_Ien",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Elao",
+      "target": "warbreaker_Raoden",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Elao",
+      "target": "warbreaker_Ten",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Eshen",
+      "target": "warbreaker_Eventeo",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Eshen",
+      "target": "warbreaker_Iadon",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Eshen",
+      "target": "warbreaker_Ketol",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Eshen",
+      "target": "warbreaker_Naolen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Eshen",
+      "target": "warbreaker_Raoden",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Eshen",
+      "target": "warbreaker_Sarene",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Eventeo",
+      "target": "warbreaker_Iadon",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Eventeo",
+      "target": "warbreaker_Ketol",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Eventeo",
+      "target": "warbreaker_Naolen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Eventeo",
+      "target": "warbreaker_Raoden",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Eventeo",
+      "target": "warbreaker_Sarene",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Fafen",
+      "target": "warbreaker_Hoid",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Fafen",
@@ -14323,6 +17529,72 @@
       "target": "warbreaker_Yarda",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Faith",
+      "target": "warbreaker_Havarseth",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Faith",
+      "target": "warbreaker_Lemex",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Faith",
+      "target": "warbreaker_Lifeblesser",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Faith",
+      "target": "warbreaker_Lightsong",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Faith",
+      "target": "warbreaker_Llarimar",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Faith",
+      "target": "warbreaker_Mercystar",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Faith",
+      "target": "warbreaker_Parlin",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Faith",
+      "target": "warbreaker_Sisirinah",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Faith",
+      "target": "warbreaker_Vivenna",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Fjon",
+      "target": "warbreaker_Hrathen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Fjon",
+      "target": "warbreaker_Keseg",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Fob",
@@ -14439,6 +17711,12 @@
       "weight": 2
     },
     {
+      "source": "warbreaker_Fran",
+      "target": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
       "source": "warbreaker_Gagaril",
       "target": "warbreaker_Lightsong",
       "series": "warbreaker",
@@ -14465,6 +17743,36 @@
     {
       "source": "warbreaker_Gagaril",
       "target": "warbreaker_Taff",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Gagaril",
+      "target": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Galladon",
+      "target": "warbreaker_Iadon",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Galladon",
+      "target": "warbreaker_Ien",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Galladon",
+      "target": "warbreaker_Raoden",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Galladon",
+      "target": "warbreaker_Ten",
       "series": "warbreaker",
       "weight": 2
     },
@@ -14662,9 +17970,21 @@
     },
     {
       "source": "warbreaker_Havarseth",
+      "target": "warbreaker_Hoid",
+      "series": "warbreaker",
+      "weight": 6
+    },
+    {
+      "source": "warbreaker_Havarseth",
       "target": "warbreaker_Hopefinder",
       "series": "warbreaker",
       "weight": 2
+    },
+    {
+      "source": "warbreaker_Havarseth",
+      "target": "warbreaker_Human",
+      "series": "warbreaker",
+      "weight": 4
     },
     {
       "source": "warbreaker_Havarseth",
@@ -14704,6 +18024,12 @@
     },
     {
       "source": "warbreaker_Havarseth",
+      "target": "warbreaker_Lift",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Havarseth",
       "target": "warbreaker_Lightsong",
       "series": "warbreaker",
       "weight": 32
@@ -14719,6 +18045,12 @@
       "target": "warbreaker_Mab",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Havarseth",
+      "target": "warbreaker_Marsh",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Havarseth",
@@ -14764,9 +18096,21 @@
     },
     {
       "source": "warbreaker_Havarseth",
+      "target": "warbreaker_Sixteen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Havarseth",
       "target": "warbreaker_Stillmark",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Havarseth",
+      "target": "warbreaker_Stone",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Havarseth",
@@ -14823,6 +18167,102 @@
       "weight": 2
     },
     {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Hopefinder",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Human",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Jewels",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Lightsong",
+      "series": "warbreaker",
+      "weight": 6
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Mercystar",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Nanrovah",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Nightblood",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Ridger",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Sisirinah",
+      "series": "warbreaker",
+      "weight": 8
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Stillmark",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Stone",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Susebron",
+      "series": "warbreaker",
+      "weight": 8
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Treledees",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Vasher",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Vivenna",
+      "series": "warbreaker",
+      "weight": 6
+    },
+    {
+      "source": "warbreaker_Hoid",
+      "target": "warbreaker_Vo",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
       "source": "warbreaker_Hopefinder",
       "target": "warbreaker_Lightsong",
       "series": "warbreaker",
@@ -14871,6 +18311,108 @@
       "weight": 2
     },
     {
+      "source": "warbreaker_Hrathen",
+      "target": "warbreaker_Keseg",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Human",
+      "target": "warbreaker_Jewels",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Human",
+      "target": "warbreaker_Lightsong",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Human",
+      "target": "warbreaker_Nightblood",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Human",
+      "target": "warbreaker_Sisirinah",
+      "series": "warbreaker",
+      "weight": 4
+    },
+    {
+      "source": "warbreaker_Human",
+      "target": "warbreaker_Stone",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Human",
+      "target": "warbreaker_Susebron",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Human",
+      "target": "warbreaker_Vasher",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Human",
+      "target": "warbreaker_Vivenna",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Iadon",
+      "target": "warbreaker_Ien",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Iadon",
+      "target": "warbreaker_Ketol",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Iadon",
+      "target": "warbreaker_Naolen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Iadon",
+      "target": "warbreaker_Raoden",
+      "series": "warbreaker",
+      "weight": 4
+    },
+    {
+      "source": "warbreaker_Iadon",
+      "target": "warbreaker_Sarene",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Iadon",
+      "target": "warbreaker_Ten",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ien",
+      "target": "warbreaker_Raoden",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ien",
+      "target": "warbreaker_Ten",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
       "source": "warbreaker_Inhanna",
       "target": "warbreaker_Lightsong",
       "series": "warbreaker",
@@ -14891,6 +18433,12 @@
     {
       "source": "warbreaker_Inhanna",
       "target": "warbreaker_Sisirinah",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Inhanna",
+      "target": "warbreaker_Sixteen",
       "series": "warbreaker",
       "weight": 2
     },
@@ -14980,6 +18528,12 @@
     },
     {
       "source": "warbreaker_Jewels",
+      "target": "warbreaker_Stone",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Jewels",
       "target": "warbreaker_Susebron",
       "series": "warbreaker",
       "weight": 4
@@ -14989,6 +18543,12 @@
       "target": "warbreaker_Thame",
       "series": "warbreaker",
       "weight": 8
+    },
+    {
+      "source": "warbreaker_Jewels",
+      "target": "warbreaker_Took",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Jewels",
@@ -15053,6 +18613,24 @@
     {
       "source": "warbreaker_Jlan",
       "target": "warbreaker_Treledees",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ketol",
+      "target": "warbreaker_Naolen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ketol",
+      "target": "warbreaker_Raoden",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ketol",
+      "target": "warbreaker_Sarene",
       "series": "warbreaker",
       "weight": 2
     },
@@ -15154,6 +18732,12 @@
     },
     {
       "source": "warbreaker_Lemex",
+      "target": "warbreaker_Night",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Lemex",
       "target": "warbreaker_Nightblood",
       "series": "warbreaker",
       "weight": 2
@@ -15184,9 +18768,21 @@
     },
     {
       "source": "warbreaker_Lemex",
+      "target": "warbreaker_Ten",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Lemex",
       "target": "warbreaker_Thame",
       "series": "warbreaker",
       "weight": 6
+    },
+    {
+      "source": "warbreaker_Lemex",
+      "target": "warbreaker_Took",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Lemex",
@@ -15285,6 +18881,60 @@
       "weight": 2
     },
     {
+      "source": "warbreaker_Lift",
+      "target": "warbreaker_Lightsong",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Lift",
+      "target": "warbreaker_Llarimar",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Lift",
+      "target": "warbreaker_Nightblood",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Lift",
+      "target": "warbreaker_Sisirinah",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Lift",
+      "target": "warbreaker_Susebron",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Lift",
+      "target": "warbreaker_Treledees",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Lift",
+      "target": "warbreaker_Vasher",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Lift",
+      "target": "warbreaker_Vivenna",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Lift",
+      "target": "warbreaker_Yesteel",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
       "source": "warbreaker_Lightsong",
       "target": "warbreaker_Llarimar",
       "series": "warbreaker",
@@ -15293,6 +18943,12 @@
     {
       "source": "warbreaker_Lightsong",
       "target": "warbreaker_Mab",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Lightsong",
+      "target": "warbreaker_Marsh",
       "series": "warbreaker",
       "weight": 2
     },
@@ -15313,6 +18969,12 @@
       "target": "warbreaker_Nanrovah",
       "series": "warbreaker",
       "weight": 6
+    },
+    {
+      "source": "warbreaker_Lightsong",
+      "target": "warbreaker_Night",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Lightsong",
@@ -15346,9 +19008,21 @@
     },
     {
       "source": "warbreaker_Lightsong",
+      "target": "warbreaker_Sixteen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Lightsong",
       "target": "warbreaker_Stillmark",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Lightsong",
+      "target": "warbreaker_Stone",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Lightsong",
@@ -15371,6 +19045,12 @@
     {
       "source": "warbreaker_Lightsong",
       "target": "warbreaker_Thame",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Lightsong",
+      "target": "warbreaker_Took",
       "series": "warbreaker",
       "weight": 2
     },
@@ -15418,9 +19098,21 @@
     },
     {
       "source": "warbreaker_Lightsong",
+      "target": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "weight": 4
+    },
+    {
+      "source": "warbreaker_Lightsong",
       "target": "warbreaker_Weatherlove",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Lightsong",
+      "target": "warbreaker_Wind",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Lightsong",
@@ -15436,6 +19128,12 @@
     },
     {
       "source": "warbreaker_Llarimar",
+      "target": "warbreaker_Marsh",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Llarimar",
       "target": "warbreaker_Mercystar",
       "series": "warbreaker",
       "weight": 12
@@ -15443,6 +19141,12 @@
     {
       "source": "warbreaker_Llarimar",
       "target": "warbreaker_Nanrovah",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Llarimar",
+      "target": "warbreaker_Night",
       "series": "warbreaker",
       "weight": 2
     },
@@ -15502,6 +19206,12 @@
     },
     {
       "source": "warbreaker_Llarimar",
+      "target": "warbreaker_Took",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Llarimar",
       "target": "warbreaker_Treledees",
       "series": "warbreaker",
       "weight": 12
@@ -15538,9 +19248,21 @@
     },
     {
       "source": "warbreaker_Llarimar",
+      "target": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Llarimar",
       "target": "warbreaker_Weatherlove",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Llarimar",
+      "target": "warbreaker_Wind",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Llarimar",
@@ -15589,6 +19311,30 @@
       "target": "warbreaker_Yarda",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Marsh",
+      "target": "warbreaker_Mercystar",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Marsh",
+      "target": "warbreaker_Nightblood",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Marsh",
+      "target": "warbreaker_Vahr",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Marsh",
+      "target": "warbreaker_Vasher",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Mercystar",
@@ -15652,6 +19398,12 @@
     },
     {
       "source": "warbreaker_Mercystar",
+      "target": "warbreaker_Took",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Mercystar",
       "target": "warbreaker_Vahr",
       "series": "warbreaker",
       "weight": 2
@@ -15670,6 +19422,12 @@
     },
     {
       "source": "warbreaker_Mercystar",
+      "target": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Mercystar",
       "target": "warbreaker_Yesteel",
       "series": "warbreaker",
       "weight": 2
@@ -15683,6 +19441,12 @@
     {
       "source": "warbreaker_Mirthgiver",
       "target": "warbreaker_Sisirinah",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Mirthgiver",
+      "target": "warbreaker_Sixteen",
       "series": "warbreaker",
       "weight": 2
     },
@@ -15712,6 +19476,12 @@
     },
     {
       "source": "warbreaker_Misel",
+      "target": "warbreaker_Night",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Misel",
       "target": "warbreaker_Nightblood",
       "series": "warbreaker",
       "weight": 2
@@ -15736,6 +19506,12 @@
     },
     {
       "source": "warbreaker_Nanrovah",
+      "target": "warbreaker_Night",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Nanrovah",
       "target": "warbreaker_Nightblood",
       "series": "warbreaker",
       "weight": 4
@@ -15751,6 +19527,12 @@
       "target": "warbreaker_Sisirinah",
       "series": "warbreaker",
       "weight": 6
+    },
+    {
+      "source": "warbreaker_Nanrovah",
+      "target": "warbreaker_Sixteen",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Nanrovah",
@@ -15795,6 +19577,60 @@
       "weight": 2
     },
     {
+      "source": "warbreaker_Naolen",
+      "target": "warbreaker_Raoden",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Naolen",
+      "target": "warbreaker_Sarene",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Night",
+      "target": "warbreaker_Nightblood",
+      "series": "warbreaker",
+      "weight": 4
+    },
+    {
+      "source": "warbreaker_Night",
+      "target": "warbreaker_Shashara",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Night",
+      "target": "warbreaker_Sisirinah",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Night",
+      "target": "warbreaker_Stillmark",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Night",
+      "target": "warbreaker_Treledees",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Night",
+      "target": "warbreaker_Vasher",
+      "series": "warbreaker",
+      "weight": 4
+    },
+    {
+      "source": "warbreaker_Night",
+      "target": "warbreaker_Vivenna",
+      "series": "warbreaker",
+      "weight": 4
+    },
+    {
       "source": "warbreaker_Nightblood",
       "target": "warbreaker_Parlin",
       "series": "warbreaker",
@@ -15823,6 +19659,12 @@
       "target": "warbreaker_Stillmark",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Nightblood",
+      "target": "warbreaker_Stone",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Nightblood",
@@ -15874,7 +19716,19 @@
     },
     {
       "source": "warbreaker_Nightblood",
+      "target": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Nightblood",
       "target": "warbreaker_Weatherlove",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Nightblood",
+      "target": "warbreaker_Wind",
       "series": "warbreaker",
       "weight": 2
     },
@@ -15916,9 +19770,21 @@
     },
     {
       "source": "warbreaker_Parlin",
+      "target": "warbreaker_Ten",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Parlin",
       "target": "warbreaker_Thame",
       "series": "warbreaker",
       "weight": 8
+    },
+    {
+      "source": "warbreaker_Parlin",
+      "target": "warbreaker_Took",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Parlin",
@@ -15993,8 +19859,26 @@
       "weight": 2
     },
     {
+      "source": "warbreaker_Raoden",
+      "target": "warbreaker_Sarene",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Raoden",
+      "target": "warbreaker_Ten",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
       "source": "warbreaker_Rariv",
       "target": "warbreaker_Taff",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Rariv",
+      "target": "warbreaker_Waxillium Ladrian",
       "series": "warbreaker",
       "weight": 2
     },
@@ -16078,15 +19962,39 @@
     },
     {
       "source": "warbreaker_Shashara",
+      "target": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Shashara",
+      "target": "warbreaker_Wind",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Shashara",
       "target": "warbreaker_Yesteel",
       "series": "warbreaker",
       "weight": 4
     },
     {
       "source": "warbreaker_Sisirinah",
+      "target": "warbreaker_Sixteen",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Sisirinah",
       "target": "warbreaker_Stillmark",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Sisirinah",
+      "target": "warbreaker_Stone",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Sisirinah",
@@ -16102,7 +20010,19 @@
     },
     {
       "source": "warbreaker_Sisirinah",
+      "target": "warbreaker_Ten",
+      "series": "warbreaker",
+      "weight": 4
+    },
+    {
+      "source": "warbreaker_Sisirinah",
       "target": "warbreaker_Thame",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Sisirinah",
+      "target": "warbreaker_Took",
       "series": "warbreaker",
       "weight": 2
     },
@@ -16156,6 +20076,12 @@
     },
     {
       "source": "warbreaker_Sisirinah",
+      "target": "warbreaker_Wind",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Sisirinah",
       "target": "warbreaker_Yarda",
       "series": "warbreaker",
       "weight": 8
@@ -16165,6 +20091,24 @@
       "target": "warbreaker_Yesteel",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Sixteen",
+      "target": "warbreaker_Stillmark",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Sixteen",
+      "target": "warbreaker_Susebron",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Sixteen",
+      "target": "warbreaker_Treledees",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Stillmark",
@@ -16197,8 +20141,32 @@
       "weight": 6
     },
     {
+      "source": "warbreaker_Stone",
+      "target": "warbreaker_Susebron",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Stone",
+      "target": "warbreaker_Vasher",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Stone",
+      "target": "warbreaker_Vivenna",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
       "source": "warbreaker_Susebron",
       "target": "warbreaker_Tatara",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Susebron",
+      "target": "warbreaker_Ten",
       "series": "warbreaker",
       "weight": 2
     },
@@ -16251,6 +20219,12 @@
       "weight": 4
     },
     {
+      "source": "warbreaker_Taff",
+      "target": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
       "source": "warbreaker_Tatara",
       "target": "warbreaker_Treledees",
       "series": "warbreaker",
@@ -16261,6 +20235,18 @@
       "target": "warbreaker_Vasher",
       "series": "warbreaker",
       "weight": 2
+    },
+    {
+      "source": "warbreaker_Ten",
+      "target": "warbreaker_Treledees",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Ten",
+      "target": "warbreaker_Vivenna",
+      "series": "warbreaker",
+      "weight": 4
     },
     {
       "source": "warbreaker_Thame",
@@ -16289,6 +20275,30 @@
     {
       "source": "warbreaker_Thame",
       "target": "warbreaker_Weatherlove",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Took",
+      "target": "warbreaker_Vahr",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Took",
+      "target": "warbreaker_Vasher",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Took",
+      "target": "warbreaker_Vivenna",
+      "series": "warbreaker",
+      "weight": 4
+    },
+    {
+      "source": "warbreaker_Took",
+      "target": "warbreaker_Yarda",
       "series": "warbreaker",
       "weight": 2
     },
@@ -16384,7 +20394,19 @@
     },
     {
       "source": "warbreaker_Vasher",
+      "target": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Vasher",
       "target": "warbreaker_Weatherlove",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Vasher",
+      "target": "warbreaker_Wind",
       "series": "warbreaker",
       "weight": 2
     },
@@ -16402,9 +20424,21 @@
     },
     {
       "source": "warbreaker_Vivenna",
+      "target": "warbreaker_Waxillium Ladrian",
+      "series": "warbreaker",
+      "weight": 2
+    },
+    {
+      "source": "warbreaker_Vivenna",
       "target": "warbreaker_Weatherlove",
       "series": "warbreaker",
       "weight": 4
+    },
+    {
+      "source": "warbreaker_Vivenna",
+      "target": "warbreaker_Wind",
+      "series": "warbreaker",
+      "weight": 2
     },
     {
       "source": "warbreaker_Vivenna",
@@ -16417,6 +20451,12 @@
       "target": "warbreaker_Yesteel",
       "series": "warbreaker",
       "weight": 6
+    },
+    {
+      "source": "warbreaker_Waxillium Ladrian",
+      "target": "warbreaker_Yesteel",
+      "series": "warbreaker",
+      "weight": 2
     }
   ]
 }

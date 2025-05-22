@@ -3,29 +3,32 @@ from pathlib import Path
 
 import polars as pl
 
+CHAR_FILE = Path("data/all_cosmere_characters.parquet")
 INPUT_DIR_OC = Path("data/occurences/")
 INPUT_DIR_COOC = Path("data/cooccurence/")
 OUTPUT_FILE = Path("temp.json")
 
 
 def main() -> None:
+    char_df = pl.read_parquet(CHAR_FILE)
     # TODO: have fixed schema for this JSON dict using better types
     res = {}
 
     files = list(INPUT_DIR_OC.glob("*.parquet"))
     print(f"Character occurence files discovered - {len(files):,}")
 
-    edges_df = (
+    nodes_df = (
         pl.concat([pl.read_parquet(fn) for fn in files])
         .with_columns(
             id=pl.concat_str("series", "name", separator="_"),
         )
-        .group_by("id", "series", "name")
+        .join(char_df, on=["name"], how="left")
+        .group_by("id", "series", "name", "homeworld")
         .agg(pl.len().alias("occurrence"))
         .sort("id", "series", "name")
     )
     # print(nodes_df.sort("occurrence"))
-    res["nodes"] = edges_df.to_dicts()
+    res["nodes"] = nodes_df.to_dicts()
     print("-" * 30)
 
     files = list(INPUT_DIR_COOC.glob("*.parquet"))
