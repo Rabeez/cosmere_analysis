@@ -23,9 +23,22 @@ CHAR_FILE = Path("data/all_cosmere_characters.parquet")
 OUTPUT_DIR = Path("data/occurences/")
 
 BOOK2SERIES: dict[str, Series] = {
-    "Mistborn_ The Final Empire - Brandon Sanderson": Series.MISTBORN,
-    "Warbreaker - Brandon Sanderson": Series.WARBREAKER,
     "Elantris - Brandon Sanderson": Series.ELANTRIS,
+    "Mistborn_ The Final Empire - Brandon Sanderson": Series.MISTBORN,
+    "Mistborn_ The Well of Ascension - Brandon Sanderson": Series.MISTBORN,
+    "Mistborn_ The Hero Of Ages - Brandon Sanderson": Series.MISTBORN,
+    "Mistborn_ Secret History - Brandon Sanderson": Series.MISTBORN,
+    "Mistborn_ The Alloy of Law - Brandon Sanderson": Series.MISTBORN,
+    "Mistborn_ Shadows of Self - Brandon Sanderson": Series.MISTBORN,
+    "Mistborn_ The Bands of Mourning - Brandon Sanderson": Series.MISTBORN,
+    "Mistborn_ The Lost Metal - Brandon Sanderson": Series.MISTBORN,
+    "Warbreaker - Brandon Sanderson": Series.WARBREAKER,
+    "The Way of Kings - Brandon Sanderson": Series.STORMLIGHT,
+    "Words of Radiance - Brandon Sanderson": Series.STORMLIGHT,
+    "Edgedancer - Brandon Sanderson": Series.STORMLIGHT,
+    "Oathbringer - Brandon Sanderson": Series.STORMLIGHT,
+    "Dawnshard - Brandon Sanderson": Series.STORMLIGHT,
+    "Rhythm of War - Brandon Sanderson": Series.STORMLIGHT,
 }
 PLANET2SERIES: dict[str, Series] = {
     "First of the Sun": Series.SIXTH_OF_THE_DUSK,
@@ -40,6 +53,7 @@ SERIES2MODE: dict[Series, Literal["break_asterisks", "chapter_x"]] = {
     Series.MISTBORN: "break_asterisks",
     Series.WARBREAKER: "break_asterisks",
     Series.ELANTRIS: "chapter_x",
+    Series.STORMLIGHT: "break_asterisks",
 }
 
 # def stream_tokens(
