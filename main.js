@@ -1,5 +1,3 @@
-console.log("loaded");
-
 const width = window.innerWidth;
 const height = window.innerHeight;
 
@@ -19,15 +17,12 @@ const zoom = d3
   .zoom()
   .scaleExtent([0.5, 5]) // Adjust the scale limits as needed
   .on("zoom", (event) => {
-    console.log("zoom");
     container.attr("transform", event.transform);
   });
 
 svg.call(zoom);
 
 d3.json("temp.json").then((data) => {
-  console.log("JSON Data:", data);
-
   const linkScale = d3
     .scaleLinear()
     .domain(d3.extent(data.links, (d) => d.weight))
