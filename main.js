@@ -67,7 +67,7 @@ d3.json("temp.json").then((data) => {
       // }),
     )
     .force("charge", d3.forceManyBody().strength(-100))
-    .force("center", d3.forceCenter(width / 2, height / 2))
+    // .force("center", d3.forceCenter(width / 2, height / 2))
     .force(
       "collide",
       d3
@@ -80,10 +80,10 @@ d3.json("temp.json").then((data) => {
     });
 
   // Global positing
-  d3.forceCenter(width / 2, height / 2);
-  d3.forceX(width / 2).strength(0.5);
-  d3.forceY(height / 2).strength(0.5);
-  d3.forceManyBody().strength(-300).distanceMax(3000);
+  // d3.forceCenter(width / 2, height / 2);
+  // d3.forceX(width / 2).strength(0.5);
+  // d3.forceY(height / 2).strength(0.5);
+  // d3.forceManyBody().strength(-300).distanceMax(3000);
 
   const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
@@ -96,6 +96,7 @@ d3.json("temp.json").then((data) => {
     .attr("stroke-opacity", (d) => opacityScale(d.weight));
 
   // Create nodes with data binding
+  // TODO: isolate worldhoppers and color them differently
   const node = nodeGroup
     .selectAll("circle")
     .data(data.nodes)
