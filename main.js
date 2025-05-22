@@ -59,7 +59,8 @@ d3.json("temp.json").then((data) => {
           const sourceOccurrence = d.source.occurrence || 1;
           const targetOccurrence = d.target.occurrence || 1;
           const avgOccurrence = (sourceOccurrence + targetOccurrence) / 2;
-          const occurrenceFactor = avgOccurrence / maxOccurrence;
+          // const occurrenceFactor = avgOccurrence / maxOccurrence;
+          const occurrenceFactor = 1;
           const homeworldFactor =
             d.source.homeworld === d.target.homeworld ? 0.5 : 1;
           return 1 * occurrenceFactor * homeworldFactor;
@@ -91,7 +92,12 @@ d3.json("temp.json").then((data) => {
     .data(filteredLinks)
     .join("line")
     .attr("stroke-width", (d) => linkScale(d.weight))
-    .attr("stroke-opacity", (d) => opacityScale(d.weight));
+    .attr("stroke-opacity", (d) => opacityScale(d.weight))
+    .attr("stroke", (d) => {
+      const s = d.source.homeworld;
+      const t = d.target.homeworld;
+      return s === t ? "#999" : "#ffbbb2";
+    });
 
   const node = nodeGroup
     .selectAll("circle")
