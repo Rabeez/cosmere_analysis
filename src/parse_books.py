@@ -79,9 +79,14 @@ def stream_lines_w_metadata(
     with file_path.open("r") as f:
         for line in f:
             if file_path.stem == "Warbreaker - Brandon Sanderson" and line.startswith(
-                "Sample Chapters of Mistborn"
+                "Sample Chapters of Mistborn",
             ):
-                break
+                tqdm.write(f"Early Stop: {file_path}")
+                return
+            if file_path.stem == "Elantris - Brandon Sanderson" and line.startswith("ARS ARCANUM"):
+                tqdm.write(f"Early Stop: {file_path}")
+                return
+
             m = chapter_regex.match(line.strip())
             if m:
                 chapter_count += 1
@@ -144,8 +149,8 @@ def main() -> None:
     print(f"Character name mapping ready - {len(chars_name_mapping):,}")
     print("-" * 30)
 
-    records = []
     for book_filename in tqdm(txt_files, total=len(txt_files), desc="Book Files"):
+        records = []
         series = BOOK2SERIES[book_filename.stem]
         mode = SERIES2MODE[series]
         for ch_id, word in tqdm(
