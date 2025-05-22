@@ -85,6 +85,8 @@ d3.json("temp.json").then((data) => {
   d3.forceY(height / 2).strength(0.5);
   d3.forceManyBody().strength(-300).distanceMax(3000);
 
+  const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
   // Create links with data binding
   const link = linkGroup
     .selectAll("line")
@@ -99,7 +101,7 @@ d3.json("temp.json").then((data) => {
     .data(data.nodes)
     .join("circle")
     .attr("r", (d) => radiusScale(d.occurrence))
-    .attr("fill", "#69b3a2");
+    .attr("fill", (d) => colorScale(d.series));
 
   // Add tooltips to nodes
   node.append("title").text((d) => d.name);
