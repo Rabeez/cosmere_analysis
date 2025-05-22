@@ -149,6 +149,8 @@ def main() -> None:
     print(f"Character name mapping ready - {len(chars_name_mapping):,}")
     print("-" * 30)
 
+    char_df = pl.read_parquet(CHAR_FILE)
+
     for book_filename in tqdm(txt_files, total=len(txt_files), desc="Book Files"):
         records = []
         series = BOOK2SERIES[book_filename.stem]
@@ -162,8 +164,12 @@ def main() -> None:
                 records.append(
                     {
                         "series": series.value,
+                        "book": book_filename.stem,
                         "chapter_id": ch_id,
                         "name": canonical_char_name,
+                        "homeworld": char_df.filter(pl.col("name") == canonical_char_name)[
+                            "homeworld"
+                        ][0],
                     },
                 )
         output_file = OUTPUT_DIR / f"{book_filename.stem}.parquet"

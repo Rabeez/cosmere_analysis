@@ -43,6 +43,8 @@ d3.json("temp.json").then((data) => {
     .domain(d3.extent(data.nodes, (d) => d.occurrence))
     .range([5, 20]);
 
+  const maxOccurrence = d3.max(data.nodes, (d) => d.occurrence || 1);
+
   const simulation = d3
     .forceSimulation(data.nodes)
     .force(
@@ -50,24 +52,20 @@ d3.json("temp.json").then((data) => {
       d3
         .forceLink(data.links)
         .id((d) => d.id)
-        .distance(100)
-        .strength((d) => {
+        .distance((d) => {
           const sourceOccurrence = d.source.occurrence || 1;
           const targetOccurrence = d.target.occurrence || 1;
           const avgOccurrence = (sourceOccurrence + targetOccurrence) / 2;
-          return (
-            avgOccurrence / Math.max(...data.nodes.map((n) => n.occurrence))
-          );
-        }),
-      // .distance((d) => {
-      //   const sourceOccurrence = d.source.occurrence || 1;
-      //   const targetOccurrence = d.target.occurrence || 1;
-      //   const avgOccurrence = (sourceOccurrence + targetOccurrence) / 2;
-      //   return 10000 / avgOccurrence; // Adjust the divisor as needed
-      // }),
+          const occurrenceFactor = avgOccurrence / maxOccurrence;
+
+          const homeworldFactor =
+            d.source.homeworld === d.target.homeworld ? 0.5 : 1;
+
+          return 1 * occurrenceFactor * homeworldFactor;
+        })
+        .strength(0.1),
     )
     .force("charge", d3.forceManyBody().strength(-100))
-    // .force("center", d3.forceCenter(width / 2, height / 2))
     .force(
       "collide",
       d3
@@ -102,7 +100,7 @@ d3.json("temp.json").then((data) => {
     .data(data.nodes)
     .join("circle")
     .attr("r", (d) => radiusScale(d.occurrence))
-    .attr("fill", (d) => colorScale(d.series));
+    .attr("fill", (d) => colorScale(d.homeworld));
 
   // Add tooltips to nodes
   node.append("title").text((d) => d.name);

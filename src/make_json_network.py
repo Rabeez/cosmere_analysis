@@ -19,13 +19,12 @@ def main() -> None:
 
     nodes_df = (
         pl.concat([pl.read_parquet(fn) for fn in files])
-        .with_columns(
-            id=pl.concat_str("series", "name", separator="_"),
-        )
+        .with_columns(id=pl.col("name"))
         .join(char_df, on=["name"], how="left")
-        .group_by("id", "series", "name", "homeworld")
+        .group_by("id", "name", "homeworld")
         .agg(pl.len().alias("occurrence"))
-        .sort("id", "series", "name")
+        # .filter(pl.col("occurrence") > 1)
+        .sort("id")
     )
     # print(nodes_df.sort("occurrence"))
     res["nodes"] = nodes_df.to_dicts()
@@ -36,14 +35,13 @@ def main() -> None:
     edges_df = (
         pl.concat([pl.read_parquet(fn) for fn in files])
         .with_columns(
-            pl.concat_str(pl.col("series"), pl.col("char1"), separator="_").alias("source"),
-            pl.concat_str(pl.col("series"), pl.col("char2"), separator="_").alias("target"),
+            source=pl.col("char1"),
+            target=pl.col("char2"),
         )
-        .group_by("source", "target", "series")
+        .group_by("source", "target")
         .agg(pl.len().alias("weight"))
         # .filter(pl.col("weight") >= 5)
-        .filter(pl.col("source") != pl.col("target"))
-        .sort("source", "target", "series")
+        .sort("source", "target")
     )
     # print(edges_df.sort("weight"))
     res["links"] = edges_df.to_dicts()

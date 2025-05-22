@@ -24,7 +24,7 @@ def main() -> None:
         desc="Files",
     ):
         occurence_df = pl.read_parquet(char_occurence_file)
-        unique_chars = occurence_df.group_by(["series", "chapter_id"]).agg(
+        unique_chars = occurence_df.group_by(["chapter_id"]).agg(
             names=pl.col("name").unique().sort(),
         )
         cooccurence_df = (
@@ -40,9 +40,10 @@ def main() -> None:
                 char1=pl.col("pairs").list.get(0),
                 char2=pl.col("pairs").list.get(1),
             )
-            .select(["series", "chapter_id", "char1", "char2"])
+            .filter(pl.col("char1") != pl.col("char2"))
+            .select(["chapter_id", "char1", "char2"])
             .unique()
-            .sort(["series", "chapter_id"])
+            .sort(["chapter_id"])
         )
         output_file = OUTPUT_DIR / f"{char_occurence_file.stem}.parquet"
         output_file.unlink(missing_ok=True)
