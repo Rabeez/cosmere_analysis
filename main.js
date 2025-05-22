@@ -23,39 +23,45 @@ const zoom = d3
 svg.call(zoom);
 
 d3.json("temp.json").then((data) => {
+  const filteredNodes = data.nodes.filter((d) => d.occurrence > 2);
+  const nodeIds = new Set(filteredNodes.map((d) => d.id));
+  const filteredLinks = data.links.filter(
+    (d) =>
+      nodeIds.has(d.source.id || d.source) &&
+      nodeIds.has(d.target.id || d.target),
+  );
+
   const linkScale = d3
     .scaleLinear()
-    .domain(d3.extent(data.links, (d) => d.weight))
+    .domain(d3.extent(filteredLinks, (d) => d.weight))
     .range([0.9, 2]);
 
   const opacityScale = d3
     .scaleLinear()
-    .domain(d3.extent(data.links, (d) => d.weight))
-    .range([0.9, 1]);
+    .domain(d3.extent(filteredLinks, (d) => d.weight))
+    .range([0.2, 1]);
 
   const radiusScale = d3
     .scaleSqrt()
-    .domain(d3.extent(data.nodes, (d) => d.occurrence))
+    .domain(d3.extent(filteredNodes, (d) => d.occurrence))
     .range([5, 20]);
 
-  const maxOccurrence = d3.max(data.nodes, (d) => d.occurrence || 1);
+  const maxOccurrence = d3.max(filteredNodes, (d) => d.occurrence || 1);
 
   const simulation = d3
-    .forceSimulation(data.nodes)
+    .forceSimulation(filteredNodes)
     .force(
       "link",
       d3
-        .forceLink(data.links)
+        .forceLink(filteredLinks)
         .id((d) => d.id)
         .distance((d) => {
           const sourceOccurrence = d.source.occurrence || 1;
           const targetOccurrence = d.target.occurrence || 1;
           const avgOccurrence = (sourceOccurrence + targetOccurrence) / 2;
           const occurrenceFactor = avgOccurrence / maxOccurrence;
-
           const homeworldFactor =
             d.source.homeworld === d.target.homeworld ? 0.5 : 1;
-
           return 1 * occurrenceFactor * homeworldFactor;
         })
         .strength(0.1),
@@ -71,7 +77,6 @@ d3.json("temp.json").then((data) => {
     .on("end", () => {
       simulation.stop();
     });
-
   // Global positing
   // d3.forceCenter(width / 2, height / 2);
   // d3.forceX(width / 2).strength(0.5);
@@ -83,21 +88,18 @@ d3.json("temp.json").then((data) => {
   // Create links with data binding
   const link = linkGroup
     .selectAll("line")
-    .data(data.links)
+    .data(filteredLinks)
     .join("line")
     .attr("stroke-width", (d) => linkScale(d.weight))
     .attr("stroke-opacity", (d) => opacityScale(d.weight));
 
-  // Create nodes with data binding
-  // TODO: isolate worldhoppers and color them differently
   const node = nodeGroup
     .selectAll("circle")
-    .data(data.nodes)
+    .data(filteredNodes)
     .join("circle")
     .attr("r", (d) => radiusScale(d.occurrence))
     .attr("fill", (d) => colorScale(d.homeworld));
 
-  // Add tooltips to nodes
   node.append("title").text((d) => d.name);
 
   // Simulation tick
