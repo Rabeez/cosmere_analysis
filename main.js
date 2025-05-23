@@ -176,6 +176,13 @@ d3.json("temp.json").then((data) => {
     .append("g")
     .attr("class", "legend")
     .attr("transform", `translate(20,20)`);
+  legend
+    .append("text")
+    .text("Homeworld")
+    .attr("x", 0)
+    .attr("y", -8)
+    .style("font-weight", "bold")
+    .style("font-size", "14px");
   worlds.forEach((w, i) => {
     const g = legend.append("g").attr("transform", `translate(0,${i * 20})`);
     g.append("rect")
